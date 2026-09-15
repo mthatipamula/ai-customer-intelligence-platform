@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+sqlalchemy
+torch
+transformers
+datasets
+accelerate
+fastapi
+uvicorn
+pydantic
+pytest

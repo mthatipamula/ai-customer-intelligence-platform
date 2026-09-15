@@ -1,0 +1,85 @@
+ticket_id,customer_id,ticket_text,category,priority,sentiment,resolution_hours,customer_spend,previous_tickets
+T001,C001,"I was charged twice for my hotel reservation",Billing,High,Negative,24,2450.50,5
+T002,C002,"The hotel charged my card twice",Billing,High,Negative,20,3200.00,7
+T003,C003,"I see a duplicate charge on my account",Billing,High,Negative,18,1850.75,3
+T004,C004,"There is an incorrect charge on my hotel bill",Billing,Medium,Negative,16,4100.25,6
+T005,C005,"Why was I charged an extra amount for my stay",Billing,Medium,Negative,14,2750.00,4
+T006,C006,"My final bill contains a charge I do not recognize",Billing,High,Negative,22,5200.50,8
+T007,C007,"Can you explain this charge on my reservation",Billing,Medium,Neutral,12,950.00,2
+T008,C008,"I was billed more than the quoted amount",Billing,High,Negative,20,3600.00,5
+T009,C009,"There is a billing discrepancy on my account",Billing,Medium,Negative,15,2200.25,4
+T010,C010,"I need help understanding my hotel charges",Billing,Low,Neutral,8,780.00,1
+T011,C011,"The amount charged to my card is incorrect",Billing,High,Negative,19,3300.75,6
+T012,C012,"Please review the charges from my recent stay",Billing,Medium,Neutral,10,1450.50,3
+T013,C013,"How can I change my reservation dates",Booking,Medium,Neutral,8,1200.00,2
+T014,C014,"I need to modify the dates of my booking",Booking,Medium,Neutral,10,1800.50,3
+T015,C015,"Can I change my hotel reservation",Booking,Low,Neutral,6,950.25,1
+T016,C016,"I want to cancel my upcoming reservation",Booking,High,Negative,12,2300.00,4
+T017,C017,"Can I move my booking to another date",Booking,Medium,Neutral,9,1650.75,2
+T018,C018,"I need to update the guest information on my reservation",Booking,Medium,Neutral,7,2100.00,5
+T019,C019,"Can I extend my hotel stay",Booking,Medium,Neutral,11,2750.50,6
+T020,C020,"I want to shorten my reservation",Booking,Medium,Neutral,8,1350.25,2
+T021,C021,"How do I modify my booking",Booking,Low,Neutral,5,850.00,1
+T022,C022,"Can I change the room on my reservation",Booking,Medium,Neutral,9,1900.00,3
+T023,C023,"I need to update my reservation",Booking,Low,Neutral,6,1100.75,2
+T024,C024,"Please help me cancel my hotel booking",Booking,High,Negative,13,2500.00,5
+T025,C025,"The payment on my account failed",Payment,High,Negative,12,3200.75,7
+T026,C026,"My credit card payment was declined",Payment,High,Negative,10,1800.00,3
+T027,C027,"The payment did not go through",Payment,High,Negative,8,2750.25,5
+T028,C028,"I cannot complete my payment",Payment,High,Negative,11,4100.00,8
+T029,C029,"Why was my payment rejected",Payment,High,Negative,9,2250.50,4
+T030,C030,"My card payment is not working",Payment,High,Negative,13,3500.00,6
+T031,C031,"The transaction failed when I tried to pay",Payment,High,Negative,15,1450.75,2
+T032,C032,"I received an error during payment",Payment,Medium,Negative,7,980.00,1
+T033,C033,"Can I use another card for payment",Payment,Low,Neutral,5,1200.00,2
+T034,C034,"How can I update my payment method",Payment,Medium,Neutral,6,2100.25,3
+T035,C035,"My payment was declined twice",Payment,High,Negative,14,3900.00,7
+T036,C036,"The checkout payment is failing",Payment,High,Negative,12,2850.50,5
+T037,C037,"What time is check-in",General,Low,Neutral,2,450.25,1
+T038,C038,"What time is checkout",General,Low,Neutral,2,700.00,1
+T039,C039,"Where can I find hotel information",General,Low,Neutral,3,550.50,0
+T040,C040,"What amenities are available at the hotel",General,Low,Neutral,4,900.00,2
+T041,C041,"Do you provide breakfast",General,Low,Neutral,3,1100.25,1
+T042,C042,"Is there parking available",General,Low,Neutral,4,1350.00,2
+T043,C043,"Where is the hotel located",General,Low,Neutral,2,650.75,1
+T044,C044,"What facilities does the hotel have",General,Low,Neutral,3,1750.00,3
+T045,C045,"Can you provide general information about the property",General,Low,Neutral,3,800.50,1
+T046,C046,"Is WiFi available at the hotel",General,Low,Neutral,2,950.00,2
+T047,C047,"What services are available for guests",General,Low,Neutral,4,1250.25,2
+T048,C048,"How can I contact the hotel",General,Low,Neutral,2,500.00,1
+T049,C049,"My room was not ready when I arrived",Service,High,Negative,18,5200.00,8
+T050,C050,"The room was not cleaned properly",Service,High,Negative,16,3100.50,6
+T051,C051,"Housekeeping did not clean my room",Service,Medium,Negative,12,1850.00,3
+T052,C052,"The service at the hotel was disappointing",Service,High,Negative,20,4500.75,7
+T053,C053,"I have been waiting for room service",Service,Medium,Negative,10,2200.25,4
+T054,C054,"The hotel staff did not help me",Service,High,Negative,15,3800.00,5
+T055,C055,"There is a problem with the service I received",Service,High,Negative,17,2900.50,6
+T056,C056,"My room service order is late",Service,Medium,Negative,9,1650.00,2
+T057,C057,"The room was not prepared properly",Service,High,Negative,14,3300.25,5
+T058,C058,"I need help with a hotel service issue",Service,Medium,Neutral,8,1150.75,2
+T059,C059,"The staff response was very slow",Service,Medium,Negative,11,2700.00,4
+T060,C060,"I am unhappy with the service during my stay",Service,High,Negative,19,4900.50,7
+T061,C061,"I cannot log into my account",Account,High,Negative,8,750.00,2
+T062,C062,"I forgot my account password",Account,Medium,Neutral,5,1200.00,3
+T063,C063,"How do I reset my password",Account,Low,Neutral,3,650.25,1
+T064,C064,"My account has been locked",Account,High,Negative,7,2100.50,4
+T065,C065,"I need to update my account information",Account,Medium,Neutral,6,950.00,2
+T066,C066,"I cannot access my customer account",Account,High,Negative,9,1800.75,5
+T067,C067,"How can I change my email address",Account,Low,Neutral,4,550.50,1
+T068,C068,"My login credentials are not working",Account,High,Negative,8,2750.00,6
+T069,C069,"I need help accessing my profile",Account,Medium,Neutral,5,850.25,2
+T070,C070,"How do I change my account details",Account,Low,Neutral,4,1100.00,3
+T071,C071,"I cannot sign into the customer portal",Account,High,Negative,7,3200.50,5
+T072,C072,"Please help me recover my account",Account,High,Negative,10,1450.75,4
+T073,C073,"How can I redeem my loyalty points",Loyalty,Medium,Neutral,6,1350.00,4
+T074,C074,"I want to use my rewards points",Loyalty,Medium,Neutral,5,2200.50,6
+T075,C075,"How many loyalty points do I have",Loyalty,Low,Neutral,3,850.25,2
+T076,C076,"Can I redeem points for a hotel stay",Loyalty,Medium,Neutral,7,3100.00,8
+T077,C077,"My loyalty points are missing",Loyalty,High,Negative,9,1850.75,5
+T078,C078,"Why did my rewards balance change",Loyalty,Medium,Negative,8,2750.25,7
+T079,C079,"How do I earn more loyalty points",Loyalty,Low,Neutral,4,950.00,3
+T080,C080,"Can I transfer my loyalty points",Loyalty,Low,Neutral,5,1200.50,4
+T081,C081,"My rewards points were not added",Loyalty,Medium,Negative,7,1600.00,5
+T082,C082,"Where can I see my loyalty balance",Loyalty,Low,Neutral,3,780.25,2
+T083,C083,"Can I use rewards points for an upgrade",Loyalty,Medium,Neutral,6,3400.00,9
+T084,C084,"I need help with my loyalty rewards",Loyalty,Medium,Neutral,5,1450.75,4
