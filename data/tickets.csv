@@ -1,85 +1,1051 @@
 ticket_id,customer_id,ticket_text,category,priority,sentiment,resolution_hours,customer_spend,previous_tickets
-T001,C001,"I was charged twice for my hotel reservation",Billing,High,Negative,24,2450.50,5
-T002,C002,"The hotel charged my card twice",Billing,High,Negative,20,3200.00,7
-T003,C003,"I see a duplicate charge on my account",Billing,High,Negative,18,1850.75,3
-T004,C004,"There is an incorrect charge on my hotel bill",Billing,Medium,Negative,16,4100.25,6
-T005,C005,"Why was I charged an extra amount for my stay",Billing,Medium,Negative,14,2750.00,4
-T006,C006,"My final bill contains a charge I do not recognize",Billing,High,Negative,22,5200.50,8
-T007,C007,"Can you explain this charge on my reservation",Billing,Medium,Neutral,12,950.00,2
-T008,C008,"I was billed more than the quoted amount",Billing,High,Negative,20,3600.00,5
-T009,C009,"There is a billing discrepancy on my account",Billing,Medium,Negative,15,2200.25,4
-T010,C010,"I need help understanding my hotel charges",Billing,Low,Neutral,8,780.00,1
-T011,C011,"The amount charged to my card is incorrect",Billing,High,Negative,19,3300.75,6
-T012,C012,"Please review the charges from my recent stay",Billing,Medium,Neutral,10,1450.50,3
-T013,C013,"How can I change my reservation dates",Booking,Medium,Neutral,8,1200.00,2
-T014,C014,"I need to modify the dates of my booking",Booking,Medium,Neutral,10,1800.50,3
-T015,C015,"Can I change my hotel reservation",Booking,Low,Neutral,6,950.25,1
-T016,C016,"I want to cancel my upcoming reservation",Booking,High,Negative,12,2300.00,4
-T017,C017,"Can I move my booking to another date",Booking,Medium,Neutral,9,1650.75,2
-T018,C018,"I need to update the guest information on my reservation",Booking,Medium,Neutral,7,2100.00,5
-T019,C019,"Can I extend my hotel stay",Booking,Medium,Neutral,11,2750.50,6
-T020,C020,"I want to shorten my reservation",Booking,Medium,Neutral,8,1350.25,2
-T021,C021,"How do I modify my booking",Booking,Low,Neutral,5,850.00,1
-T022,C022,"Can I change the room on my reservation",Booking,Medium,Neutral,9,1900.00,3
-T023,C023,"I need to update my reservation",Booking,Low,Neutral,6,1100.75,2
-T024,C024,"Please help me cancel my hotel booking",Booking,High,Negative,13,2500.00,5
-T025,C025,"The payment on my account failed",Payment,High,Negative,12,3200.75,7
-T026,C026,"My credit card payment was declined",Payment,High,Negative,10,1800.00,3
-T027,C027,"The payment did not go through",Payment,High,Negative,8,2750.25,5
-T028,C028,"I cannot complete my payment",Payment,High,Negative,11,4100.00,8
-T029,C029,"Why was my payment rejected",Payment,High,Negative,9,2250.50,4
-T030,C030,"My card payment is not working",Payment,High,Negative,13,3500.00,6
-T031,C031,"The transaction failed when I tried to pay",Payment,High,Negative,15,1450.75,2
-T032,C032,"I received an error during payment",Payment,Medium,Negative,7,980.00,1
-T033,C033,"Can I use another card for payment",Payment,Low,Neutral,5,1200.00,2
-T034,C034,"How can I update my payment method",Payment,Medium,Neutral,6,2100.25,3
-T035,C035,"My payment was declined twice",Payment,High,Negative,14,3900.00,7
-T036,C036,"The checkout payment is failing",Payment,High,Negative,12,2850.50,5
-T037,C037,"What time is check-in",General,Low,Neutral,2,450.25,1
-T038,C038,"What time is checkout",General,Low,Neutral,2,700.00,1
-T039,C039,"Where can I find hotel information",General,Low,Neutral,3,550.50,0
-T040,C040,"What amenities are available at the hotel",General,Low,Neutral,4,900.00,2
-T041,C041,"Do you provide breakfast",General,Low,Neutral,3,1100.25,1
-T042,C042,"Is there parking available",General,Low,Neutral,4,1350.00,2
-T043,C043,"Where is the hotel located",General,Low,Neutral,2,650.75,1
-T044,C044,"What facilities does the hotel have",General,Low,Neutral,3,1750.00,3
-T045,C045,"Can you provide general information about the property",General,Low,Neutral,3,800.50,1
-T046,C046,"Is WiFi available at the hotel",General,Low,Neutral,2,950.00,2
-T047,C047,"What services are available for guests",General,Low,Neutral,4,1250.25,2
-T048,C048,"How can I contact the hotel",General,Low,Neutral,2,500.00,1
-T049,C049,"My room was not ready when I arrived",Service,High,Negative,18,5200.00,8
-T050,C050,"The room was not cleaned properly",Service,High,Negative,16,3100.50,6
-T051,C051,"Housekeeping did not clean my room",Service,Medium,Negative,12,1850.00,3
-T052,C052,"The service at the hotel was disappointing",Service,High,Negative,20,4500.75,7
-T053,C053,"I have been waiting for room service",Service,Medium,Negative,10,2200.25,4
-T054,C054,"The hotel staff did not help me",Service,High,Negative,15,3800.00,5
-T055,C055,"There is a problem with the service I received",Service,High,Negative,17,2900.50,6
-T056,C056,"My room service order is late",Service,Medium,Negative,9,1650.00,2
-T057,C057,"The room was not prepared properly",Service,High,Negative,14,3300.25,5
-T058,C058,"I need help with a hotel service issue",Service,Medium,Neutral,8,1150.75,2
-T059,C059,"The staff response was very slow",Service,Medium,Negative,11,2700.00,4
-T060,C060,"I am unhappy with the service during my stay",Service,High,Negative,19,4900.50,7
-T061,C061,"I cannot log into my account",Account,High,Negative,8,750.00,2
-T062,C062,"I forgot my account password",Account,Medium,Neutral,5,1200.00,3
-T063,C063,"How do I reset my password",Account,Low,Neutral,3,650.25,1
-T064,C064,"My account has been locked",Account,High,Negative,7,2100.50,4
-T065,C065,"I need to update my account information",Account,Medium,Neutral,6,950.00,2
-T066,C066,"I cannot access my customer account",Account,High,Negative,9,1800.75,5
-T067,C067,"How can I change my email address",Account,Low,Neutral,4,550.50,1
-T068,C068,"My login credentials are not working",Account,High,Negative,8,2750.00,6
-T069,C069,"I need help accessing my profile",Account,Medium,Neutral,5,850.25,2
-T070,C070,"How do I change my account details",Account,Low,Neutral,4,1100.00,3
-T071,C071,"I cannot sign into the customer portal",Account,High,Negative,7,3200.50,5
-T072,C072,"Please help me recover my account",Account,High,Negative,10,1450.75,4
-T073,C073,"How can I redeem my loyalty points",Loyalty,Medium,Neutral,6,1350.00,4
-T074,C074,"I want to use my rewards points",Loyalty,Medium,Neutral,5,2200.50,6
-T075,C075,"How many loyalty points do I have",Loyalty,Low,Neutral,3,850.25,2
-T076,C076,"Can I redeem points for a hotel stay",Loyalty,Medium,Neutral,7,3100.00,8
-T077,C077,"My loyalty points are missing",Loyalty,High,Negative,9,1850.75,5
-T078,C078,"Why did my rewards balance change",Loyalty,Medium,Negative,8,2750.25,7
-T079,C079,"How do I earn more loyalty points",Loyalty,Low,Neutral,4,950.00,3
-T080,C080,"Can I transfer my loyalty points",Loyalty,Low,Neutral,5,1200.50,4
-T081,C081,"My rewards points were not added",Loyalty,Medium,Negative,7,1600.00,5
-T082,C082,"Where can I see my loyalty balance",Loyalty,Low,Neutral,3,780.25,2
-T083,C083,"Can I use rewards points for an upgrade",Loyalty,Medium,Neutral,6,3400.00,9
-T084,C084,"I need help with my loyalty rewards",Loyalty,Medium,Neutral,5,1450.75,4
+T0001,C0001,Please help me with charged twice for my hotel reservation,Billing,Low,Negative,5,637.25,1
+T0002,C0002,I need assistance with charged twice for my hotel reservation,Billing,High,Negative,20,774.5,2
+T0003,C0003,Can someone review charged twice for my hotel reservation,Billing,Medium,Neutral,12,911.75,3
+T0004,C0004,This is urgent because of charged twice for my hotel reservation,Billing,Low,Negative,8,1049.0,4
+T0005,C0005,I need an update about charged twice for my hotel reservation,Billing,High,Negative,23,1186.25,5
+T0006,C0006,Please resolve charged twice for my hotel reservation,Billing,Medium,Neutral,15,1323.5,6
+T0007,C0007,Can you look into charged twice for my hotel reservation,Billing,Low,Negative,11,1460.75,7
+T0008,C0008,I would like clarification about charged twice for my hotel reservation,Billing,High,Negative,18,1598.0,8
+T0009,C0009,I need support with charged twice for my hotel reservation,Billing,Medium,Neutral,10,1735.25,9
+T0010,C0010,Please check charged twice for my hotel reservation,Billing,Low,Negative,6,1872.5,10
+T0011,C0011,Could you help with charged twice for my hotel reservation,Billing,High,Negative,21,2009.75,0
+T0012,C0012,I need this fixed: charged twice for my hotel reservation,Billing,Medium,Neutral,13,2147.0,1
+T0013,C0013,Please investigate charged twice for my hotel reservation,Billing,Low,Negative,9,2284.25,2
+T0014,C0014,Can you explain charged twice for my hotel reservation,Billing,High,Negative,24,2421.5,3
+T0015,C0015,I would appreciate help with charged twice for my hotel reservation,Billing,Medium,Neutral,16,2558.75,4
+T0016,C0016,Please help me with hotel charged my card twice,Billing,Low,Negative,4,2696.0,5
+T0017,C0017,I need assistance with hotel charged my card twice,Billing,High,Negative,19,2833.25,6
+T0018,C0018,Can someone review hotel charged my card twice,Billing,Medium,Neutral,11,2970.5,7
+T0019,C0019,This is urgent because of hotel charged my card twice,Billing,Low,Negative,7,3107.75,8
+T0020,C0020,I need an update about hotel charged my card twice,Billing,High,Negative,22,3245.0,9
+T0021,C0021,Please resolve hotel charged my card twice,Billing,Medium,Neutral,14,3382.25,10
+T0022,C0022,Can you look into hotel charged my card twice,Billing,Low,Negative,10,3519.5,0
+T0023,C0023,I would like clarification about hotel charged my card twice,Billing,High,Negative,25,3656.75,1
+T0024,C0024,I need support with hotel charged my card twice,Billing,Medium,Neutral,9,3794.0,2
+T0025,C0025,Please check hotel charged my card twice,Billing,Low,Negative,5,3931.25,3
+T0026,C0026,Could you help with hotel charged my card twice,Billing,High,Negative,20,4068.5,4
+T0027,C0027,I need this fixed: hotel charged my card twice,Billing,Medium,Neutral,12,4205.75,5
+T0028,C0028,Please investigate hotel charged my card twice,Billing,Low,Negative,8,4343.0,6
+T0029,C0029,Can you explain hotel charged my card twice,Billing,High,Negative,23,4480.25,7
+T0030,C0030,I would appreciate help with hotel charged my card twice,Billing,Medium,Neutral,15,4617.5,8
+T0031,C0031,Please help me with duplicate charge on my account,Billing,Low,Negative,11,4754.75,9
+T0032,C0032,I need assistance with duplicate charge on my account,Billing,High,Negative,18,4892.0,10
+T0033,C0033,Can someone review duplicate charge on my account,Billing,Medium,Neutral,10,5029.25,0
+T0034,C0034,This is urgent because of duplicate charge on my account,Billing,Low,Negative,6,5166.5,1
+T0035,C0035,I need an update about duplicate charge on my account,Billing,High,Negative,21,5303.75,2
+T0036,C0036,Please resolve duplicate charge on my account,Billing,Medium,Neutral,13,5441.0,3
+T0037,C0037,Can you look into duplicate charge on my account,Billing,Low,Negative,9,578.25,4
+T0038,C0038,I would like clarification about duplicate charge on my account,Billing,High,Negative,24,715.5,5
+T0039,C0039,I need support with duplicate charge on my account,Billing,Medium,Neutral,16,852.75,6
+T0040,C0040,Please check duplicate charge on my account,Billing,Low,Negative,4,990.0,7
+T0041,C0041,Could you help with duplicate charge on my account,Billing,High,Negative,19,1127.25,8
+T0042,C0042,I need this fixed: duplicate charge on my account,Billing,Medium,Neutral,11,1264.5,9
+T0043,C0043,Please investigate duplicate charge on my account,Billing,Low,Negative,7,1401.75,10
+T0044,C0044,Can you explain duplicate charge on my account,Billing,High,Negative,22,1539.0,0
+T0045,C0045,I would appreciate help with duplicate charge on my account,Billing,Medium,Neutral,14,1676.25,1
+T0046,C0046,Please help me with incorrect charge on my hotel bill,Billing,Low,Negative,10,1813.5,2
+T0047,C0047,I need assistance with incorrect charge on my hotel bill,Billing,High,Negative,25,1950.75,3
+T0048,C0048,Can someone review incorrect charge on my hotel bill,Billing,Medium,Neutral,9,2088.0,4
+T0049,C0049,This is urgent because of incorrect charge on my hotel bill,Billing,Low,Negative,5,2225.25,5
+T0050,C0050,I need an update about incorrect charge on my hotel bill,Billing,High,Negative,20,2362.5,6
+T0051,C0051,Please resolve incorrect charge on my hotel bill,Billing,Medium,Neutral,12,2499.75,7
+T0052,C0052,Can you look into incorrect charge on my hotel bill,Billing,Low,Negative,8,2637.0,8
+T0053,C0053,I would like clarification about incorrect charge on my hotel bill,Billing,High,Negative,23,2774.25,9
+T0054,C0054,I need support with incorrect charge on my hotel bill,Billing,Medium,Neutral,15,2911.5,10
+T0055,C0055,Please check incorrect charge on my hotel bill,Billing,Low,Negative,11,3048.75,0
+T0056,C0056,Could you help with incorrect charge on my hotel bill,Billing,High,Negative,18,3186.0,1
+T0057,C0057,I need this fixed: incorrect charge on my hotel bill,Billing,Medium,Neutral,10,3323.25,2
+T0058,C0058,Please investigate incorrect charge on my hotel bill,Billing,Low,Negative,6,3460.5,3
+T0059,C0059,Can you explain incorrect charge on my hotel bill,Billing,High,Negative,21,3597.75,4
+T0060,C0060,I would appreciate help with incorrect charge on my hotel bill,Billing,Medium,Neutral,13,3735.0,5
+T0061,C0061,Please help me with billed more than the quoted amount,Billing,Low,Negative,9,3872.25,6
+T0062,C0062,I need assistance with billed more than the quoted amount,Billing,High,Negative,24,4009.5,7
+T0063,C0063,Can someone review billed more than the quoted amount,Billing,Medium,Neutral,16,4146.75,8
+T0064,C0064,This is urgent because of billed more than the quoted amount,Billing,Low,Negative,4,4284.0,9
+T0065,C0065,I need an update about billed more than the quoted amount,Billing,High,Negative,19,4421.25,10
+T0066,C0066,Please resolve billed more than the quoted amount,Billing,Medium,Neutral,11,4558.5,0
+T0067,C0067,Can you look into billed more than the quoted amount,Billing,Low,Negative,7,4695.75,1
+T0068,C0068,I would like clarification about billed more than the quoted amount,Billing,High,Negative,22,4833.0,2
+T0069,C0069,I need support with billed more than the quoted amount,Billing,Medium,Neutral,14,4970.25,3
+T0070,C0070,Please check billed more than the quoted amount,Billing,Low,Negative,10,5107.5,4
+T0071,C0071,Could you help with billed more than the quoted amount,Billing,High,Negative,25,5244.75,5
+T0072,C0072,I need this fixed: billed more than the quoted amount,Billing,Medium,Neutral,9,5382.0,6
+T0073,C0073,Please investigate billed more than the quoted amount,Billing,Low,Negative,5,519.25,7
+T0074,C0074,Can you explain billed more than the quoted amount,Billing,High,Negative,20,656.5,8
+T0075,C0075,I would appreciate help with billed more than the quoted amount,Billing,Medium,Neutral,12,793.75,9
+T0076,C0076,Please help me with charges from my recent stay need review,Billing,Low,Negative,8,931.0,10
+T0077,C0077,I need assistance with charges from my recent stay need review,Billing,High,Negative,23,1068.25,0
+T0078,C0078,Can someone review charges from my recent stay need review,Billing,Medium,Neutral,15,1205.5,1
+T0079,C0079,This is urgent because of charges from my recent stay need review,Billing,Low,Negative,11,1342.75,2
+T0080,C0080,I need an update about charges from my recent stay need review,Billing,High,Negative,18,1480.0,3
+T0081,C0081,Please resolve charges from my recent stay need review,Billing,Medium,Neutral,10,1617.25,4
+T0082,C0082,Can you look into charges from my recent stay need review,Billing,Low,Negative,6,1754.5,5
+T0083,C0083,I would like clarification about charges from my recent stay need review,Billing,High,Negative,21,1891.75,6
+T0084,C0084,I need support with charges from my recent stay need review,Billing,Medium,Neutral,13,2029.0,7
+T0085,C0085,Please check charges from my recent stay need review,Billing,Low,Negative,9,2166.25,8
+T0086,C0086,Could you help with charges from my recent stay need review,Billing,High,Negative,24,2303.5,9
+T0087,C0087,I need this fixed: charges from my recent stay need review,Billing,Medium,Neutral,16,2440.75,10
+T0088,C0088,Please investigate charges from my recent stay need review,Billing,Low,Negative,4,2578.0,0
+T0089,C0089,Can you explain charges from my recent stay need review,Billing,High,Negative,19,2715.25,1
+T0090,C0090,I would appreciate help with charges from my recent stay need review,Billing,Medium,Neutral,11,2852.5,2
+T0091,C0091,Please help me with need help understanding my hotel charges,Billing,Low,Negative,7,2989.75,3
+T0092,C0092,I need assistance with need help understanding my hotel charges,Billing,High,Negative,22,3127.0,4
+T0093,C0093,Can someone review need help understanding my hotel charges,Billing,Medium,Neutral,14,3264.25,5
+T0094,C0094,This is urgent because of need help understanding my hotel charges,Billing,Low,Negative,10,3401.5,6
+T0095,C0095,I need an update about need help understanding my hotel charges,Billing,High,Negative,25,3538.75,7
+T0096,C0096,Please resolve need help understanding my hotel charges,Billing,Medium,Neutral,9,3676.0,8
+T0097,C0097,Can you look into need help understanding my hotel charges,Billing,Low,Negative,5,3813.25,9
+T0098,C0098,I would like clarification about need help understanding my hotel charges,Billing,High,Negative,20,3950.5,10
+T0099,C0099,I need support with need help understanding my hotel charges,Billing,Medium,Neutral,12,4087.75,0
+T0100,C0100,Please check need help understanding my hotel charges,Billing,Low,Negative,8,4225.0,1
+T0101,C0101,Could you help with need help understanding my hotel charges,Billing,High,Negative,23,4362.25,2
+T0102,C0102,I need this fixed: need help understanding my hotel charges,Billing,Medium,Neutral,15,4499.5,3
+T0103,C0103,Please investigate need help understanding my hotel charges,Billing,Low,Negative,11,4636.75,4
+T0104,C0104,Can you explain need help understanding my hotel charges,Billing,High,Negative,18,4774.0,5
+T0105,C0105,I would appreciate help with need help understanding my hotel charges,Billing,Medium,Neutral,10,4911.25,6
+T0106,C0106,Please help me with amount charged to my card is incorrect,Billing,Low,Negative,6,5048.5,7
+T0107,C0107,I need assistance with amount charged to my card is incorrect,Billing,High,Negative,21,5185.75,8
+T0108,C0108,Can someone review amount charged to my card is incorrect,Billing,Medium,Neutral,13,5323.0,9
+T0109,C0109,This is urgent because of amount charged to my card is incorrect,Billing,Low,Negative,9,5460.25,10
+T0110,C0110,I need an update about amount charged to my card is incorrect,Billing,High,Negative,24,597.5,0
+T0111,C0111,Please resolve amount charged to my card is incorrect,Billing,Medium,Neutral,16,734.75,1
+T0112,C0112,Can you look into amount charged to my card is incorrect,Billing,Low,Negative,4,872.0,2
+T0113,C0113,I would like clarification about amount charged to my card is incorrect,Billing,High,Negative,19,1009.25,3
+T0114,C0114,I need support with amount charged to my card is incorrect,Billing,Medium,Neutral,11,1146.5,4
+T0115,C0115,Please check amount charged to my card is incorrect,Billing,Low,Negative,7,1283.75,5
+T0116,C0116,Could you help with amount charged to my card is incorrect,Billing,High,Negative,22,1421.0,6
+T0117,C0117,I need this fixed: amount charged to my card is incorrect,Billing,Medium,Neutral,14,1558.25,7
+T0118,C0118,Please investigate amount charged to my card is incorrect,Billing,Low,Negative,10,1695.5,8
+T0119,C0119,Can you explain amount charged to my card is incorrect,Billing,High,Negative,25,1832.75,9
+T0120,C0120,I would appreciate help with amount charged to my card is incorrect,Billing,Medium,Neutral,9,1970.0,10
+T0121,C0121,Please help me with billing discrepancy on my account,Billing,Low,Negative,5,2107.25,0
+T0122,C0122,I need assistance with billing discrepancy on my account,Billing,High,Negative,20,2244.5,1
+T0123,C0123,Can someone review billing discrepancy on my account,Billing,Medium,Neutral,12,2381.75,2
+T0124,C0124,This is urgent because of billing discrepancy on my account,Billing,Low,Negative,8,2519.0,3
+T0125,C0125,I need an update about billing discrepancy on my account,Billing,High,Negative,23,2656.25,4
+T0126,C0126,Please resolve billing discrepancy on my account,Billing,Medium,Neutral,15,2793.5,5
+T0127,C0127,Can you look into billing discrepancy on my account,Billing,Low,Negative,11,2930.75,6
+T0128,C0128,I would like clarification about billing discrepancy on my account,Billing,High,Negative,18,3068.0,7
+T0129,C0129,I need support with billing discrepancy on my account,Billing,Medium,Neutral,10,3205.25,8
+T0130,C0130,Please check billing discrepancy on my account,Billing,Low,Negative,6,3342.5,9
+T0131,C0131,Could you help with billing discrepancy on my account,Billing,High,Negative,21,3479.75,10
+T0132,C0132,I need this fixed: billing discrepancy on my account,Billing,Medium,Neutral,13,3617.0,0
+T0133,C0133,Please investigate billing discrepancy on my account,Billing,Low,Negative,9,3754.25,1
+T0134,C0134,Can you explain billing discrepancy on my account,Billing,High,Negative,24,3891.5,2
+T0135,C0135,I would appreciate help with billing discrepancy on my account,Billing,Medium,Neutral,16,4028.75,3
+T0136,C0136,Please help me with charged an extra amount for my stay,Billing,Low,Negative,4,4166.0,4
+T0137,C0137,I need assistance with charged an extra amount for my stay,Billing,High,Negative,19,4303.25,5
+T0138,C0138,Can someone review charged an extra amount for my stay,Billing,Medium,Neutral,11,4440.5,6
+T0139,C0139,This is urgent because of charged an extra amount for my stay,Billing,Low,Negative,7,4577.75,7
+T0140,C0140,I need an update about charged an extra amount for my stay,Billing,High,Negative,22,4715.0,8
+T0141,C0141,Please resolve charged an extra amount for my stay,Billing,Medium,Neutral,14,4852.25,9
+T0142,C0142,Can you look into charged an extra amount for my stay,Billing,Low,Negative,10,4989.5,10
+T0143,C0143,I would like clarification about charged an extra amount for my stay,Billing,High,Negative,25,5126.75,0
+T0144,C0144,I need support with charged an extra amount for my stay,Billing,Medium,Neutral,9,5264.0,1
+T0145,C0145,Please check charged an extra amount for my stay,Billing,Low,Negative,5,5401.25,2
+T0146,C0146,Could you help with charged an extra amount for my stay,Billing,High,Negative,20,538.5,3
+T0147,C0147,I need this fixed: charged an extra amount for my stay,Billing,Medium,Neutral,12,675.75,4
+T0148,C0148,Please investigate charged an extra amount for my stay,Billing,Low,Negative,8,813.0,5
+T0149,C0149,Can you explain charged an extra amount for my stay,Billing,High,Negative,23,950.25,6
+T0150,C0150,I would appreciate help with charged an extra amount for my stay,Billing,Medium,Neutral,15,1087.5,7
+T0151,C0151,Please help me with change my reservation dates,Booking,Low,Neutral,11,1224.75,8
+T0152,C0152,I need assistance with change my reservation dates,Booking,High,Neutral,18,1362.0,9
+T0153,C0153,Can someone review change my reservation dates,Booking,Medium,Neutral,10,1499.25,10
+T0154,C0154,This is urgent because of change my reservation dates,Booking,Low,Neutral,6,1636.5,0
+T0155,C0155,I need an update about change my reservation dates,Booking,High,Neutral,21,1773.75,1
+T0156,C0156,Please resolve change my reservation dates,Booking,Medium,Neutral,13,1911.0,2
+T0157,C0157,Can you look into change my reservation dates,Booking,Low,Neutral,9,2048.25,3
+T0158,C0158,I would like clarification about change my reservation dates,Booking,High,Neutral,24,2185.5,4
+T0159,C0159,I need support with change my reservation dates,Booking,Medium,Neutral,16,2322.75,5
+T0160,C0160,Please check change my reservation dates,Booking,Low,Neutral,4,2460.0,6
+T0161,C0161,Could you help with change my reservation dates,Booking,High,Neutral,19,2597.25,7
+T0162,C0162,I need this fixed: change my reservation dates,Booking,Medium,Neutral,11,2734.5,8
+T0163,C0163,Please investigate change my reservation dates,Booking,Low,Neutral,7,2871.75,9
+T0164,C0164,Can you explain change my reservation dates,Booking,High,Neutral,22,3009.0,10
+T0165,C0165,I would appreciate help with change my reservation dates,Booking,Medium,Neutral,14,3146.25,0
+T0166,C0166,Please help me with modify the dates of my booking,Booking,Low,Neutral,10,3283.5,1
+T0167,C0167,I need assistance with modify the dates of my booking,Booking,High,Neutral,25,3420.75,2
+T0168,C0168,Can someone review modify the dates of my booking,Booking,Medium,Neutral,9,3558.0,3
+T0169,C0169,This is urgent because of modify the dates of my booking,Booking,Low,Neutral,5,3695.25,4
+T0170,C0170,I need an update about modify the dates of my booking,Booking,High,Neutral,20,3832.5,5
+T0171,C0171,Please resolve modify the dates of my booking,Booking,Medium,Neutral,12,3969.75,6
+T0172,C0172,Can you look into modify the dates of my booking,Booking,Low,Neutral,8,4107.0,7
+T0173,C0173,I would like clarification about modify the dates of my booking,Booking,High,Neutral,23,4244.25,8
+T0174,C0174,I need support with modify the dates of my booking,Booking,Medium,Neutral,15,4381.5,9
+T0175,C0175,Please check modify the dates of my booking,Booking,Low,Neutral,11,4518.75,10
+T0176,C0176,Could you help with modify the dates of my booking,Booking,High,Neutral,18,4656.0,0
+T0177,C0177,I need this fixed: modify the dates of my booking,Booking,Medium,Neutral,10,4793.25,1
+T0178,C0178,Please investigate modify the dates of my booking,Booking,Low,Neutral,6,4930.5,2
+T0179,C0179,Can you explain modify the dates of my booking,Booking,High,Neutral,21,5067.75,3
+T0180,C0180,I would appreciate help with modify the dates of my booking,Booking,Medium,Neutral,13,5205.0,4
+T0181,C0181,Please help me with change my hotel reservation,Booking,Low,Neutral,9,5342.25,5
+T0182,C0182,I need assistance with change my hotel reservation,Booking,High,Neutral,24,5479.5,6
+T0183,C0183,Can someone review change my hotel reservation,Booking,Medium,Neutral,16,616.75,7
+T0184,C0184,This is urgent because of change my hotel reservation,Booking,Low,Neutral,4,754.0,8
+T0185,C0185,I need an update about change my hotel reservation,Booking,High,Neutral,19,891.25,9
+T0186,C0186,Please resolve change my hotel reservation,Booking,Medium,Neutral,11,1028.5,10
+T0187,C0187,Can you look into change my hotel reservation,Booking,Low,Neutral,7,1165.75,0
+T0188,C0188,I would like clarification about change my hotel reservation,Booking,High,Neutral,22,1303.0,1
+T0189,C0189,I need support with change my hotel reservation,Booking,Medium,Neutral,14,1440.25,2
+T0190,C0190,Please check change my hotel reservation,Booking,Low,Neutral,10,1577.5,3
+T0191,C0191,Could you help with change my hotel reservation,Booking,High,Neutral,25,1714.75,4
+T0192,C0192,I need this fixed: change my hotel reservation,Booking,Medium,Neutral,9,1852.0,5
+T0193,C0193,Please investigate change my hotel reservation,Booking,Low,Neutral,5,1989.25,6
+T0194,C0194,Can you explain change my hotel reservation,Booking,High,Neutral,20,2126.5,7
+T0195,C0195,I would appreciate help with change my hotel reservation,Booking,Medium,Neutral,12,2263.75,8
+T0196,C0196,Please help me with cancel my upcoming reservation,Booking,Low,Neutral,8,2401.0,9
+T0197,C0197,I need assistance with cancel my upcoming reservation,Booking,High,Neutral,23,2538.25,10
+T0198,C0198,Can someone review cancel my upcoming reservation,Booking,Medium,Neutral,15,2675.5,0
+T0199,C0199,This is urgent because of cancel my upcoming reservation,Booking,Low,Neutral,11,2812.75,1
+T0200,C0200,I need an update about cancel my upcoming reservation,Booking,High,Neutral,18,2950.0,2
+T0201,C0201,Please resolve cancel my upcoming reservation,Booking,Medium,Neutral,10,3087.25,3
+T0202,C0202,Can you look into cancel my upcoming reservation,Booking,Low,Neutral,6,3224.5,4
+T0203,C0203,I would like clarification about cancel my upcoming reservation,Booking,High,Neutral,21,3361.75,5
+T0204,C0204,I need support with cancel my upcoming reservation,Booking,Medium,Neutral,13,3499.0,6
+T0205,C0205,Please check cancel my upcoming reservation,Booking,Low,Neutral,9,3636.25,7
+T0206,C0206,Could you help with cancel my upcoming reservation,Booking,High,Neutral,24,3773.5,8
+T0207,C0207,I need this fixed: cancel my upcoming reservation,Booking,Medium,Neutral,16,3910.75,9
+T0208,C0208,Please investigate cancel my upcoming reservation,Booking,Low,Neutral,4,4048.0,10
+T0209,C0209,Can you explain cancel my upcoming reservation,Booking,High,Neutral,19,4185.25,0
+T0210,C0210,I would appreciate help with cancel my upcoming reservation,Booking,Medium,Neutral,11,4322.5,1
+T0211,C0211,Please help me with move my booking to another date,Booking,Low,Neutral,7,4459.75,2
+T0212,C0212,I need assistance with move my booking to another date,Booking,High,Neutral,22,4597.0,3
+T0213,C0213,Can someone review move my booking to another date,Booking,Medium,Neutral,14,4734.25,4
+T0214,C0214,This is urgent because of move my booking to another date,Booking,Low,Neutral,10,4871.5,5
+T0215,C0215,I need an update about move my booking to another date,Booking,High,Neutral,25,5008.75,6
+T0216,C0216,Please resolve move my booking to another date,Booking,Medium,Neutral,9,5146.0,7
+T0217,C0217,Can you look into move my booking to another date,Booking,Low,Neutral,5,5283.25,8
+T0218,C0218,I would like clarification about move my booking to another date,Booking,High,Neutral,20,5420.5,9
+T0219,C0219,I need support with move my booking to another date,Booking,Medium,Neutral,12,557.75,10
+T0220,C0220,Please check move my booking to another date,Booking,Low,Neutral,8,695.0,0
+T0221,C0221,Could you help with move my booking to another date,Booking,High,Neutral,23,832.25,1
+T0222,C0222,I need this fixed: move my booking to another date,Booking,Medium,Neutral,15,969.5,2
+T0223,C0223,Please investigate move my booking to another date,Booking,Low,Neutral,11,1106.75,3
+T0224,C0224,Can you explain move my booking to another date,Booking,High,Neutral,18,1244.0,4
+T0225,C0225,I would appreciate help with move my booking to another date,Booking,Medium,Neutral,10,1381.25,5
+T0226,C0226,Please help me with update guest information on my reservation,Booking,Low,Neutral,6,1518.5,6
+T0227,C0227,I need assistance with update guest information on my reservation,Booking,High,Neutral,21,1655.75,7
+T0228,C0228,Can someone review update guest information on my reservation,Booking,Medium,Neutral,13,1793.0,8
+T0229,C0229,This is urgent because of update guest information on my reservation,Booking,Low,Neutral,9,1930.25,9
+T0230,C0230,I need an update about update guest information on my reservation,Booking,High,Neutral,24,2067.5,10
+T0231,C0231,Please resolve update guest information on my reservation,Booking,Medium,Neutral,16,2204.75,0
+T0232,C0232,Can you look into update guest information on my reservation,Booking,Low,Neutral,4,2342.0,1
+T0233,C0233,I would like clarification about update guest information on my reservation,Booking,High,Neutral,19,2479.25,2
+T0234,C0234,I need support with update guest information on my reservation,Booking,Medium,Neutral,11,2616.5,3
+T0235,C0235,Please check update guest information on my reservation,Booking,Low,Neutral,7,2753.75,4
+T0236,C0236,Could you help with update guest information on my reservation,Booking,High,Neutral,22,2891.0,5
+T0237,C0237,I need this fixed: update guest information on my reservation,Booking,Medium,Neutral,14,3028.25,6
+T0238,C0238,Please investigate update guest information on my reservation,Booking,Low,Neutral,10,3165.5,7
+T0239,C0239,Can you explain update guest information on my reservation,Booking,High,Neutral,25,3302.75,8
+T0240,C0240,I would appreciate help with update guest information on my reservation,Booking,Medium,Neutral,9,3440.0,9
+T0241,C0241,Please help me with extend my hotel stay,Booking,Low,Neutral,5,3577.25,10
+T0242,C0242,I need assistance with extend my hotel stay,Booking,High,Neutral,20,3714.5,0
+T0243,C0243,Can someone review extend my hotel stay,Booking,Medium,Neutral,12,3851.75,1
+T0244,C0244,This is urgent because of extend my hotel stay,Booking,Low,Neutral,8,3989.0,2
+T0245,C0245,I need an update about extend my hotel stay,Booking,High,Neutral,23,4126.25,3
+T0246,C0246,Please resolve extend my hotel stay,Booking,Medium,Neutral,15,4263.5,4
+T0247,C0247,Can you look into extend my hotel stay,Booking,Low,Neutral,11,4400.75,5
+T0248,C0248,I would like clarification about extend my hotel stay,Booking,High,Neutral,18,4538.0,6
+T0249,C0249,I need support with extend my hotel stay,Booking,Medium,Neutral,10,4675.25,7
+T0250,C0250,Please check extend my hotel stay,Booking,Low,Neutral,6,4812.5,8
+T0251,C0251,Could you help with extend my hotel stay,Booking,High,Neutral,21,4949.75,9
+T0252,C0252,I need this fixed: extend my hotel stay,Booking,Medium,Neutral,13,5087.0,10
+T0253,C0253,Please investigate extend my hotel stay,Booking,Low,Neutral,9,5224.25,0
+T0254,C0254,Can you explain extend my hotel stay,Booking,High,Neutral,24,5361.5,1
+T0255,C0255,I would appreciate help with extend my hotel stay,Booking,Medium,Neutral,16,5498.75,2
+T0256,C0256,Please help me with shorten my reservation,Booking,Low,Neutral,4,636.0,3
+T0257,C0257,I need assistance with shorten my reservation,Booking,High,Neutral,19,773.25,4
+T0258,C0258,Can someone review shorten my reservation,Booking,Medium,Neutral,11,910.5,5
+T0259,C0259,This is urgent because of shorten my reservation,Booking,Low,Neutral,7,1047.75,6
+T0260,C0260,I need an update about shorten my reservation,Booking,High,Neutral,22,1185.0,7
+T0261,C0261,Please resolve shorten my reservation,Booking,Medium,Neutral,14,1322.25,8
+T0262,C0262,Can you look into shorten my reservation,Booking,Low,Neutral,10,1459.5,9
+T0263,C0263,I would like clarification about shorten my reservation,Booking,High,Neutral,25,1596.75,10
+T0264,C0264,I need support with shorten my reservation,Booking,Medium,Neutral,9,1734.0,0
+T0265,C0265,Please check shorten my reservation,Booking,Low,Neutral,5,1871.25,1
+T0266,C0266,Could you help with shorten my reservation,Booking,High,Neutral,20,2008.5,2
+T0267,C0267,I need this fixed: shorten my reservation,Booking,Medium,Neutral,12,2145.75,3
+T0268,C0268,Please investigate shorten my reservation,Booking,Low,Neutral,8,2283.0,4
+T0269,C0269,Can you explain shorten my reservation,Booking,High,Neutral,23,2420.25,5
+T0270,C0270,I would appreciate help with shorten my reservation,Booking,Medium,Neutral,15,2557.5,6
+T0271,C0271,Please help me with modify my booking,Booking,Low,Neutral,11,2694.75,7
+T0272,C0272,I need assistance with modify my booking,Booking,High,Neutral,18,2832.0,8
+T0273,C0273,Can someone review modify my booking,Booking,Medium,Neutral,10,2969.25,9
+T0274,C0274,This is urgent because of modify my booking,Booking,Low,Neutral,6,3106.5,10
+T0275,C0275,I need an update about modify my booking,Booking,High,Neutral,21,3243.75,0
+T0276,C0276,Please resolve modify my booking,Booking,Medium,Neutral,13,3381.0,1
+T0277,C0277,Can you look into modify my booking,Booking,Low,Neutral,9,3518.25,2
+T0278,C0278,I would like clarification about modify my booking,Booking,High,Neutral,24,3655.5,3
+T0279,C0279,I need support with modify my booking,Booking,Medium,Neutral,16,3792.75,4
+T0280,C0280,Please check modify my booking,Booking,Low,Neutral,4,3930.0,5
+T0281,C0281,Could you help with modify my booking,Booking,High,Neutral,19,4067.25,6
+T0282,C0282,I need this fixed: modify my booking,Booking,Medium,Neutral,11,4204.5,7
+T0283,C0283,Please investigate modify my booking,Booking,Low,Neutral,7,4341.75,8
+T0284,C0284,Can you explain modify my booking,Booking,High,Neutral,22,4479.0,9
+T0285,C0285,I would appreciate help with modify my booking,Booking,Medium,Neutral,14,4616.25,10
+T0286,C0286,Please help me with change the room on my reservation,Booking,Low,Neutral,10,4753.5,0
+T0287,C0287,I need assistance with change the room on my reservation,Booking,High,Neutral,25,4890.75,1
+T0288,C0288,Can someone review change the room on my reservation,Booking,Medium,Neutral,9,5028.0,2
+T0289,C0289,This is urgent because of change the room on my reservation,Booking,Low,Neutral,5,5165.25,3
+T0290,C0290,I need an update about change the room on my reservation,Booking,High,Neutral,20,5302.5,4
+T0291,C0291,Please resolve change the room on my reservation,Booking,Medium,Neutral,12,5439.75,5
+T0292,C0292,Can you look into change the room on my reservation,Booking,Low,Neutral,8,577.0,6
+T0293,C0293,I would like clarification about change the room on my reservation,Booking,High,Neutral,23,714.25,7
+T0294,C0294,I need support with change the room on my reservation,Booking,Medium,Neutral,15,851.5,8
+T0295,C0295,Please check change the room on my reservation,Booking,Low,Neutral,11,988.75,9
+T0296,C0296,Could you help with change the room on my reservation,Booking,High,Neutral,18,1126.0,10
+T0297,C0297,I need this fixed: change the room on my reservation,Booking,Medium,Neutral,10,1263.25,0
+T0298,C0298,Please investigate change the room on my reservation,Booking,Low,Neutral,6,1400.5,1
+T0299,C0299,Can you explain change the room on my reservation,Booking,High,Neutral,21,1537.75,2
+T0300,C0300,I would appreciate help with change the room on my reservation,Booking,Medium,Neutral,13,1675.0,3
+T0301,C0301,Please help me with payment on my account failed,Payment,Low,Negative,9,1812.25,4
+T0302,C0302,I need assistance with payment on my account failed,Payment,High,Negative,24,1949.5,5
+T0303,C0303,Can someone review payment on my account failed,Payment,Medium,Neutral,16,2086.75,6
+T0304,C0304,This is urgent because of payment on my account failed,Payment,Low,Negative,4,2224.0,7
+T0305,C0305,I need an update about payment on my account failed,Payment,High,Negative,19,2361.25,8
+T0306,C0306,Please resolve payment on my account failed,Payment,Medium,Neutral,11,2498.5,9
+T0307,C0307,Can you look into payment on my account failed,Payment,Low,Negative,7,2635.75,10
+T0308,C0308,I would like clarification about payment on my account failed,Payment,High,Negative,22,2773.0,0
+T0309,C0309,I need support with payment on my account failed,Payment,Medium,Neutral,14,2910.25,1
+T0310,C0310,Please check payment on my account failed,Payment,Low,Negative,10,3047.5,2
+T0311,C0311,Could you help with payment on my account failed,Payment,High,Negative,25,3184.75,3
+T0312,C0312,I need this fixed: payment on my account failed,Payment,Medium,Neutral,9,3322.0,4
+T0313,C0313,Please investigate payment on my account failed,Payment,Low,Negative,5,3459.25,5
+T0314,C0314,Can you explain payment on my account failed,Payment,High,Negative,20,3596.5,6
+T0315,C0315,I would appreciate help with payment on my account failed,Payment,Medium,Neutral,12,3733.75,7
+T0316,C0316,Please help me with credit card payment was declined,Payment,Low,Negative,8,3871.0,8
+T0317,C0317,I need assistance with credit card payment was declined,Payment,High,Negative,23,4008.25,9
+T0318,C0318,Can someone review credit card payment was declined,Payment,Medium,Neutral,15,4145.5,10
+T0319,C0319,This is urgent because of credit card payment was declined,Payment,Low,Negative,11,4282.75,0
+T0320,C0320,I need an update about credit card payment was declined,Payment,High,Negative,18,4420.0,1
+T0321,C0321,Please resolve credit card payment was declined,Payment,Medium,Neutral,10,4557.25,2
+T0322,C0322,Can you look into credit card payment was declined,Payment,Low,Negative,6,4694.5,3
+T0323,C0323,I would like clarification about credit card payment was declined,Payment,High,Negative,21,4831.75,4
+T0324,C0324,I need support with credit card payment was declined,Payment,Medium,Neutral,13,4969.0,5
+T0325,C0325,Please check credit card payment was declined,Payment,Low,Negative,9,5106.25,6
+T0326,C0326,Could you help with credit card payment was declined,Payment,High,Negative,24,5243.5,7
+T0327,C0327,I need this fixed: credit card payment was declined,Payment,Medium,Neutral,16,5380.75,8
+T0328,C0328,Please investigate credit card payment was declined,Payment,Low,Negative,4,518.0,9
+T0329,C0329,Can you explain credit card payment was declined,Payment,High,Negative,19,655.25,10
+T0330,C0330,I would appreciate help with credit card payment was declined,Payment,Medium,Neutral,11,792.5,0
+T0331,C0331,Please help me with payment did not go through,Payment,Low,Negative,7,929.75,1
+T0332,C0332,I need assistance with payment did not go through,Payment,High,Negative,22,1067.0,2
+T0333,C0333,Can someone review payment did not go through,Payment,Medium,Neutral,14,1204.25,3
+T0334,C0334,This is urgent because of payment did not go through,Payment,Low,Negative,10,1341.5,4
+T0335,C0335,I need an update about payment did not go through,Payment,High,Negative,25,1478.75,5
+T0336,C0336,Please resolve payment did not go through,Payment,Medium,Neutral,9,1616.0,6
+T0337,C0337,Can you look into payment did not go through,Payment,Low,Negative,5,1753.25,7
+T0338,C0338,I would like clarification about payment did not go through,Payment,High,Negative,20,1890.5,8
+T0339,C0339,I need support with payment did not go through,Payment,Medium,Neutral,12,2027.75,9
+T0340,C0340,Please check payment did not go through,Payment,Low,Negative,8,2165.0,10
+T0341,C0341,Could you help with payment did not go through,Payment,High,Negative,23,2302.25,0
+T0342,C0342,I need this fixed: payment did not go through,Payment,Medium,Neutral,15,2439.5,1
+T0343,C0343,Please investigate payment did not go through,Payment,Low,Negative,11,2576.75,2
+T0344,C0344,Can you explain payment did not go through,Payment,High,Negative,18,2714.0,3
+T0345,C0345,I would appreciate help with payment did not go through,Payment,Medium,Neutral,10,2851.25,4
+T0346,C0346,Please help me with cannot complete my payment,Payment,Low,Negative,6,2988.5,5
+T0347,C0347,I need assistance with cannot complete my payment,Payment,High,Negative,21,3125.75,6
+T0348,C0348,Can someone review cannot complete my payment,Payment,Medium,Neutral,13,3263.0,7
+T0349,C0349,This is urgent because of cannot complete my payment,Payment,Low,Negative,9,3400.25,8
+T0350,C0350,I need an update about cannot complete my payment,Payment,High,Negative,24,3537.5,9
+T0351,C0351,Please resolve cannot complete my payment,Payment,Medium,Neutral,16,3674.75,10
+T0352,C0352,Can you look into cannot complete my payment,Payment,Low,Negative,4,3812.0,0
+T0353,C0353,I would like clarification about cannot complete my payment,Payment,High,Negative,19,3949.25,1
+T0354,C0354,I need support with cannot complete my payment,Payment,Medium,Neutral,11,4086.5,2
+T0355,C0355,Please check cannot complete my payment,Payment,Low,Negative,7,4223.75,3
+T0356,C0356,Could you help with cannot complete my payment,Payment,High,Negative,22,4361.0,4
+T0357,C0357,I need this fixed: cannot complete my payment,Payment,Medium,Neutral,14,4498.25,5
+T0358,C0358,Please investigate cannot complete my payment,Payment,Low,Negative,10,4635.5,6
+T0359,C0359,Can you explain cannot complete my payment,Payment,High,Negative,25,4772.75,7
+T0360,C0360,I would appreciate help with cannot complete my payment,Payment,Medium,Neutral,9,4910.0,8
+T0361,C0361,Please help me with payment was rejected,Payment,Low,Negative,5,5047.25,9
+T0362,C0362,I need assistance with payment was rejected,Payment,High,Negative,20,5184.5,10
+T0363,C0363,Can someone review payment was rejected,Payment,Medium,Neutral,12,5321.75,0
+T0364,C0364,This is urgent because of payment was rejected,Payment,Low,Negative,8,5459.0,1
+T0365,C0365,I need an update about payment was rejected,Payment,High,Negative,23,596.25,2
+T0366,C0366,Please resolve payment was rejected,Payment,Medium,Neutral,15,733.5,3
+T0367,C0367,Can you look into payment was rejected,Payment,Low,Negative,11,870.75,4
+T0368,C0368,I would like clarification about payment was rejected,Payment,High,Negative,18,1008.0,5
+T0369,C0369,I need support with payment was rejected,Payment,Medium,Neutral,10,1145.25,6
+T0370,C0370,Please check payment was rejected,Payment,Low,Negative,6,1282.5,7
+T0371,C0371,Could you help with payment was rejected,Payment,High,Negative,21,1419.75,8
+T0372,C0372,I need this fixed: payment was rejected,Payment,Medium,Neutral,13,1557.0,9
+T0373,C0373,Please investigate payment was rejected,Payment,Low,Negative,9,1694.25,10
+T0374,C0374,Can you explain payment was rejected,Payment,High,Negative,24,1831.5,0
+T0375,C0375,I would appreciate help with payment was rejected,Payment,Medium,Neutral,16,1968.75,1
+T0376,C0376,Please help me with card payment is not working,Payment,Low,Negative,4,2106.0,2
+T0377,C0377,I need assistance with card payment is not working,Payment,High,Negative,19,2243.25,3
+T0378,C0378,Can someone review card payment is not working,Payment,Medium,Neutral,11,2380.5,4
+T0379,C0379,This is urgent because of card payment is not working,Payment,Low,Negative,7,2517.75,5
+T0380,C0380,I need an update about card payment is not working,Payment,High,Negative,22,2655.0,6
+T0381,C0381,Please resolve card payment is not working,Payment,Medium,Neutral,14,2792.25,7
+T0382,C0382,Can you look into card payment is not working,Payment,Low,Negative,10,2929.5,8
+T0383,C0383,I would like clarification about card payment is not working,Payment,High,Negative,25,3066.75,9
+T0384,C0384,I need support with card payment is not working,Payment,Medium,Neutral,9,3204.0,10
+T0385,C0385,Please check card payment is not working,Payment,Low,Negative,5,3341.25,0
+T0386,C0386,Could you help with card payment is not working,Payment,High,Negative,20,3478.5,1
+T0387,C0387,I need this fixed: card payment is not working,Payment,Medium,Neutral,12,3615.75,2
+T0388,C0388,Please investigate card payment is not working,Payment,Low,Negative,8,3753.0,3
+T0389,C0389,Can you explain card payment is not working,Payment,High,Negative,23,3890.25,4
+T0390,C0390,I would appreciate help with card payment is not working,Payment,Medium,Neutral,15,4027.5,5
+T0391,C0391,Please help me with transaction failed when I tried to pay,Payment,Low,Negative,11,4164.75,6
+T0392,C0392,I need assistance with transaction failed when I tried to pay,Payment,High,Negative,18,4302.0,7
+T0393,C0393,Can someone review transaction failed when I tried to pay,Payment,Medium,Neutral,10,4439.25,8
+T0394,C0394,This is urgent because of transaction failed when I tried to pay,Payment,Low,Negative,6,4576.5,9
+T0395,C0395,I need an update about transaction failed when I tried to pay,Payment,High,Negative,21,4713.75,10
+T0396,C0396,Please resolve transaction failed when I tried to pay,Payment,Medium,Neutral,13,4851.0,0
+T0397,C0397,Can you look into transaction failed when I tried to pay,Payment,Low,Negative,9,4988.25,1
+T0398,C0398,I would like clarification about transaction failed when I tried to pay,Payment,High,Negative,24,5125.5,2
+T0399,C0399,I need support with transaction failed when I tried to pay,Payment,Medium,Neutral,16,5262.75,3
+T0400,C0400,Please check transaction failed when I tried to pay,Payment,Low,Negative,4,5400.0,4
+T0401,C0401,Could you help with transaction failed when I tried to pay,Payment,High,Negative,19,537.25,5
+T0402,C0402,I need this fixed: transaction failed when I tried to pay,Payment,Medium,Neutral,11,674.5,6
+T0403,C0403,Please investigate transaction failed when I tried to pay,Payment,Low,Negative,7,811.75,7
+T0404,C0404,Can you explain transaction failed when I tried to pay,Payment,High,Negative,22,949.0,8
+T0405,C0405,I would appreciate help with transaction failed when I tried to pay,Payment,Medium,Neutral,14,1086.25,9
+T0406,C0406,Please help me with error occurred during payment,Payment,Low,Negative,10,1223.5,10
+T0407,C0407,I need assistance with error occurred during payment,Payment,High,Negative,25,1360.75,0
+T0408,C0408,Can someone review error occurred during payment,Payment,Medium,Neutral,9,1498.0,1
+T0409,C0409,This is urgent because of error occurred during payment,Payment,Low,Negative,5,1635.25,2
+T0410,C0410,I need an update about error occurred during payment,Payment,High,Negative,20,1772.5,3
+T0411,C0411,Please resolve error occurred during payment,Payment,Medium,Neutral,12,1909.75,4
+T0412,C0412,Can you look into error occurred during payment,Payment,Low,Negative,8,2047.0,5
+T0413,C0413,I would like clarification about error occurred during payment,Payment,High,Negative,23,2184.25,6
+T0414,C0414,I need support with error occurred during payment,Payment,Medium,Neutral,15,2321.5,7
+T0415,C0415,Please check error occurred during payment,Payment,Low,Negative,11,2458.75,8
+T0416,C0416,Could you help with error occurred during payment,Payment,High,Negative,18,2596.0,9
+T0417,C0417,I need this fixed: error occurred during payment,Payment,Medium,Neutral,10,2733.25,10
+T0418,C0418,Please investigate error occurred during payment,Payment,Low,Negative,6,2870.5,0
+T0419,C0419,Can you explain error occurred during payment,Payment,High,Negative,21,3007.75,1
+T0420,C0420,I would appreciate help with error occurred during payment,Payment,Medium,Neutral,13,3145.0,2
+T0421,C0421,Please help me with use another card for payment,Payment,Low,Negative,9,3282.25,3
+T0422,C0422,I need assistance with use another card for payment,Payment,High,Negative,24,3419.5,4
+T0423,C0423,Can someone review use another card for payment,Payment,Medium,Neutral,16,3556.75,5
+T0424,C0424,This is urgent because of use another card for payment,Payment,Low,Negative,4,3694.0,6
+T0425,C0425,I need an update about use another card for payment,Payment,High,Negative,19,3831.25,7
+T0426,C0426,Please resolve use another card for payment,Payment,Medium,Neutral,11,3968.5,8
+T0427,C0427,Can you look into use another card for payment,Payment,Low,Negative,7,4105.75,9
+T0428,C0428,I would like clarification about use another card for payment,Payment,High,Negative,22,4243.0,10
+T0429,C0429,I need support with use another card for payment,Payment,Medium,Neutral,14,4380.25,0
+T0430,C0430,Please check use another card for payment,Payment,Low,Negative,10,4517.5,1
+T0431,C0431,Could you help with use another card for payment,Payment,High,Negative,25,4654.75,2
+T0432,C0432,I need this fixed: use another card for payment,Payment,Medium,Neutral,9,4792.0,3
+T0433,C0433,Please investigate use another card for payment,Payment,Low,Negative,5,4929.25,4
+T0434,C0434,Can you explain use another card for payment,Payment,High,Negative,20,5066.5,5
+T0435,C0435,I would appreciate help with use another card for payment,Payment,Medium,Neutral,12,5203.75,6
+T0436,C0436,Please help me with update my payment method,Payment,Low,Negative,8,5341.0,7
+T0437,C0437,I need assistance with update my payment method,Payment,High,Negative,23,5478.25,8
+T0438,C0438,Can someone review update my payment method,Payment,Medium,Neutral,15,615.5,9
+T0439,C0439,This is urgent because of update my payment method,Payment,Low,Negative,11,752.75,10
+T0440,C0440,I need an update about update my payment method,Payment,High,Negative,18,890.0,0
+T0441,C0441,Please resolve update my payment method,Payment,Medium,Neutral,10,1027.25,1
+T0442,C0442,Can you look into update my payment method,Payment,Low,Negative,6,1164.5,2
+T0443,C0443,I would like clarification about update my payment method,Payment,High,Negative,21,1301.75,3
+T0444,C0444,I need support with update my payment method,Payment,Medium,Neutral,13,1439.0,4
+T0445,C0445,Please check update my payment method,Payment,Low,Negative,9,1576.25,5
+T0446,C0446,Could you help with update my payment method,Payment,High,Negative,24,1713.5,6
+T0447,C0447,I need this fixed: update my payment method,Payment,Medium,Neutral,16,1850.75,7
+T0448,C0448,Please investigate update my payment method,Payment,Low,Negative,4,1988.0,8
+T0449,C0449,Can you explain update my payment method,Payment,High,Negative,19,2125.25,9
+T0450,C0450,I would appreciate help with update my payment method,Payment,Medium,Neutral,11,2262.5,10
+T0451,C0451,Please help me with what time is check-in,General,Low,Neutral,7,2399.75,0
+T0452,C0452,I need assistance with what time is check-in,General,High,Neutral,22,2537.0,1
+T0453,C0453,Can someone review what time is check-in,General,Medium,Neutral,14,2674.25,2
+T0454,C0454,This is urgent because of what time is check-in,General,Low,Neutral,10,2811.5,3
+T0455,C0455,I need an update about what time is check-in,General,High,Neutral,25,2948.75,4
+T0456,C0456,Please resolve what time is check-in,General,Medium,Neutral,9,3086.0,5
+T0457,C0457,Can you look into what time is check-in,General,Low,Neutral,5,3223.25,6
+T0458,C0458,I would like clarification about what time is check-in,General,High,Neutral,20,3360.5,7
+T0459,C0459,I need support with what time is check-in,General,Medium,Neutral,12,3497.75,8
+T0460,C0460,Please check what time is check-in,General,Low,Neutral,8,3635.0,9
+T0461,C0461,Could you help with what time is check-in,General,High,Neutral,23,3772.25,10
+T0462,C0462,I need this fixed: what time is check-in,General,Medium,Neutral,15,3909.5,0
+T0463,C0463,Please investigate what time is check-in,General,Low,Neutral,11,4046.75,1
+T0464,C0464,Can you explain what time is check-in,General,High,Neutral,18,4184.0,2
+T0465,C0465,I would appreciate help with what time is check-in,General,Medium,Neutral,10,4321.25,3
+T0466,C0466,Please help me with what time is checkout,General,Low,Neutral,6,4458.5,4
+T0467,C0467,I need assistance with what time is checkout,General,High,Neutral,21,4595.75,5
+T0468,C0468,Can someone review what time is checkout,General,Medium,Neutral,13,4733.0,6
+T0469,C0469,This is urgent because of what time is checkout,General,Low,Neutral,9,4870.25,7
+T0470,C0470,I need an update about what time is checkout,General,High,Neutral,24,5007.5,8
+T0471,C0471,Please resolve what time is checkout,General,Medium,Neutral,16,5144.75,9
+T0472,C0472,Can you look into what time is checkout,General,Low,Neutral,4,5282.0,10
+T0473,C0473,I would like clarification about what time is checkout,General,High,Neutral,19,5419.25,0
+T0474,C0474,I need support with what time is checkout,General,Medium,Neutral,11,556.5,1
+T0475,C0475,Please check what time is checkout,General,Low,Neutral,7,693.75,2
+T0476,C0476,Could you help with what time is checkout,General,High,Neutral,22,831.0,3
+T0477,C0477,I need this fixed: what time is checkout,General,Medium,Neutral,14,968.25,4
+T0478,C0478,Please investigate what time is checkout,General,Low,Neutral,10,1105.5,5
+T0479,C0479,Can you explain what time is checkout,General,High,Neutral,25,1242.75,6
+T0480,C0480,I would appreciate help with what time is checkout,General,Medium,Neutral,9,1380.0,7
+T0481,C0481,Please help me with find hotel information,General,Low,Neutral,5,1517.25,8
+T0482,C0482,I need assistance with find hotel information,General,High,Neutral,20,1654.5,9
+T0483,C0483,Can someone review find hotel information,General,Medium,Neutral,12,1791.75,10
+T0484,C0484,This is urgent because of find hotel information,General,Low,Neutral,8,1929.0,0
+T0485,C0485,I need an update about find hotel information,General,High,Neutral,23,2066.25,1
+T0486,C0486,Please resolve find hotel information,General,Medium,Neutral,15,2203.5,2
+T0487,C0487,Can you look into find hotel information,General,Low,Neutral,11,2340.75,3
+T0488,C0488,I would like clarification about find hotel information,General,High,Neutral,18,2478.0,4
+T0489,C0489,I need support with find hotel information,General,Medium,Neutral,10,2615.25,5
+T0490,C0490,Please check find hotel information,General,Low,Neutral,6,2752.5,6
+T0491,C0491,Could you help with find hotel information,General,High,Neutral,21,2889.75,7
+T0492,C0492,I need this fixed: find hotel information,General,Medium,Neutral,13,3027.0,8
+T0493,C0493,Please investigate find hotel information,General,Low,Neutral,9,3164.25,9
+T0494,C0494,Can you explain find hotel information,General,High,Neutral,24,3301.5,10
+T0495,C0495,I would appreciate help with find hotel information,General,Medium,Neutral,16,3438.75,0
+T0496,C0496,Please help me with amenities available at the hotel,General,Low,Neutral,4,3576.0,1
+T0497,C0497,I need assistance with amenities available at the hotel,General,High,Neutral,19,3713.25,2
+T0498,C0498,Can someone review amenities available at the hotel,General,Medium,Neutral,11,3850.5,3
+T0499,C0499,This is urgent because of amenities available at the hotel,General,Low,Neutral,7,3987.75,4
+T0500,C0500,I need an update about amenities available at the hotel,General,High,Neutral,22,4125.0,5
+T0501,C0501,Please resolve amenities available at the hotel,General,Medium,Neutral,14,4262.25,6
+T0502,C0502,Can you look into amenities available at the hotel,General,Low,Neutral,10,4399.5,7
+T0503,C0503,I would like clarification about amenities available at the hotel,General,High,Neutral,25,4536.75,8
+T0504,C0504,I need support with amenities available at the hotel,General,Medium,Neutral,9,4674.0,9
+T0505,C0505,Please check amenities available at the hotel,General,Low,Neutral,5,4811.25,10
+T0506,C0506,Could you help with amenities available at the hotel,General,High,Neutral,20,4948.5,0
+T0507,C0507,I need this fixed: amenities available at the hotel,General,Medium,Neutral,12,5085.75,1
+T0508,C0508,Please investigate amenities available at the hotel,General,Low,Neutral,8,5223.0,2
+T0509,C0509,Can you explain amenities available at the hotel,General,High,Neutral,23,5360.25,3
+T0510,C0510,I would appreciate help with amenities available at the hotel,General,Medium,Neutral,15,5497.5,4
+T0511,C0511,Please help me with whether you provide breakfast,General,Low,Neutral,11,634.75,5
+T0512,C0512,I need assistance with whether you provide breakfast,General,High,Neutral,18,772.0,6
+T0513,C0513,Can someone review whether you provide breakfast,General,Medium,Neutral,10,909.25,7
+T0514,C0514,This is urgent because of whether you provide breakfast,General,Low,Neutral,6,1046.5,8
+T0515,C0515,I need an update about whether you provide breakfast,General,High,Neutral,21,1183.75,9
+T0516,C0516,Please resolve whether you provide breakfast,General,Medium,Neutral,13,1321.0,10
+T0517,C0517,Can you look into whether you provide breakfast,General,Low,Neutral,9,1458.25,0
+T0518,C0518,I would like clarification about whether you provide breakfast,General,High,Neutral,24,1595.5,1
+T0519,C0519,I need support with whether you provide breakfast,General,Medium,Neutral,16,1732.75,2
+T0520,C0520,Please check whether you provide breakfast,General,Low,Neutral,4,1870.0,3
+T0521,C0521,Could you help with whether you provide breakfast,General,High,Neutral,19,2007.25,4
+T0522,C0522,I need this fixed: whether you provide breakfast,General,Medium,Neutral,11,2144.5,5
+T0523,C0523,Please investigate whether you provide breakfast,General,Low,Neutral,7,2281.75,6
+T0524,C0524,Can you explain whether you provide breakfast,General,High,Neutral,22,2419.0,7
+T0525,C0525,I would appreciate help with whether you provide breakfast,General,Medium,Neutral,14,2556.25,8
+T0526,C0526,Please help me with whether parking is available,General,Low,Neutral,10,2693.5,9
+T0527,C0527,I need assistance with whether parking is available,General,High,Neutral,25,2830.75,10
+T0528,C0528,Can someone review whether parking is available,General,Medium,Neutral,9,2968.0,0
+T0529,C0529,This is urgent because of whether parking is available,General,Low,Neutral,5,3105.25,1
+T0530,C0530,I need an update about whether parking is available,General,High,Neutral,20,3242.5,2
+T0531,C0531,Please resolve whether parking is available,General,Medium,Neutral,12,3379.75,3
+T0532,C0532,Can you look into whether parking is available,General,Low,Neutral,8,3517.0,4
+T0533,C0533,I would like clarification about whether parking is available,General,High,Neutral,23,3654.25,5
+T0534,C0534,I need support with whether parking is available,General,Medium,Neutral,15,3791.5,6
+T0535,C0535,Please check whether parking is available,General,Low,Neutral,11,3928.75,7
+T0536,C0536,Could you help with whether parking is available,General,High,Neutral,18,4066.0,8
+T0537,C0537,I need this fixed: whether parking is available,General,Medium,Neutral,10,4203.25,9
+T0538,C0538,Please investigate whether parking is available,General,Low,Neutral,6,4340.5,10
+T0539,C0539,Can you explain whether parking is available,General,High,Neutral,21,4477.75,0
+T0540,C0540,I would appreciate help with whether parking is available,General,Medium,Neutral,13,4615.0,1
+T0541,C0541,Please help me with where the hotel is located,General,Low,Neutral,9,4752.25,2
+T0542,C0542,I need assistance with where the hotel is located,General,High,Neutral,24,4889.5,3
+T0543,C0543,Can someone review where the hotel is located,General,Medium,Neutral,16,5026.75,4
+T0544,C0544,This is urgent because of where the hotel is located,General,Low,Neutral,4,5164.0,5
+T0545,C0545,I need an update about where the hotel is located,General,High,Neutral,19,5301.25,6
+T0546,C0546,Please resolve where the hotel is located,General,Medium,Neutral,11,5438.5,7
+T0547,C0547,Can you look into where the hotel is located,General,Low,Neutral,7,575.75,8
+T0548,C0548,I would like clarification about where the hotel is located,General,High,Neutral,22,713.0,9
+T0549,C0549,I need support with where the hotel is located,General,Medium,Neutral,14,850.25,10
+T0550,C0550,Please check where the hotel is located,General,Low,Neutral,10,987.5,0
+T0551,C0551,Could you help with where the hotel is located,General,High,Neutral,25,1124.75,1
+T0552,C0552,I need this fixed: where the hotel is located,General,Medium,Neutral,9,1262.0,2
+T0553,C0553,Please investigate where the hotel is located,General,Low,Neutral,5,1399.25,3
+T0554,C0554,Can you explain where the hotel is located,General,High,Neutral,20,1536.5,4
+T0555,C0555,I would appreciate help with where the hotel is located,General,Medium,Neutral,12,1673.75,5
+T0556,C0556,Please help me with facilities the hotel provides,General,Low,Neutral,8,1811.0,6
+T0557,C0557,I need assistance with facilities the hotel provides,General,High,Neutral,23,1948.25,7
+T0558,C0558,Can someone review facilities the hotel provides,General,Medium,Neutral,15,2085.5,8
+T0559,C0559,This is urgent because of facilities the hotel provides,General,Low,Neutral,11,2222.75,9
+T0560,C0560,I need an update about facilities the hotel provides,General,High,Neutral,18,2360.0,10
+T0561,C0561,Please resolve facilities the hotel provides,General,Medium,Neutral,10,2497.25,0
+T0562,C0562,Can you look into facilities the hotel provides,General,Low,Neutral,6,2634.5,1
+T0563,C0563,I would like clarification about facilities the hotel provides,General,High,Neutral,21,2771.75,2
+T0564,C0564,I need support with facilities the hotel provides,General,Medium,Neutral,13,2909.0,3
+T0565,C0565,Please check facilities the hotel provides,General,Low,Neutral,9,3046.25,4
+T0566,C0566,Could you help with facilities the hotel provides,General,High,Neutral,24,3183.5,5
+T0567,C0567,I need this fixed: facilities the hotel provides,General,Medium,Neutral,16,3320.75,6
+T0568,C0568,Please investigate facilities the hotel provides,General,Low,Neutral,4,3458.0,7
+T0569,C0569,Can you explain facilities the hotel provides,General,High,Neutral,19,3595.25,8
+T0570,C0570,I would appreciate help with facilities the hotel provides,General,Medium,Neutral,11,3732.5,9
+T0571,C0571,Please help me with general information about the property,General,Low,Neutral,7,3869.75,10
+T0572,C0572,I need assistance with general information about the property,General,High,Neutral,22,4007.0,0
+T0573,C0573,Can someone review general information about the property,General,Medium,Neutral,14,4144.25,1
+T0574,C0574,This is urgent because of general information about the property,General,Low,Neutral,10,4281.5,2
+T0575,C0575,I need an update about general information about the property,General,High,Neutral,25,4418.75,3
+T0576,C0576,Please resolve general information about the property,General,Medium,Neutral,9,4556.0,4
+T0577,C0577,Can you look into general information about the property,General,Low,Neutral,5,4693.25,5
+T0578,C0578,I would like clarification about general information about the property,General,High,Neutral,20,4830.5,6
+T0579,C0579,I need support with general information about the property,General,Medium,Neutral,12,4967.75,7
+T0580,C0580,Please check general information about the property,General,Low,Neutral,8,5105.0,8
+T0581,C0581,Could you help with general information about the property,General,High,Neutral,23,5242.25,9
+T0582,C0582,I need this fixed: general information about the property,General,Medium,Neutral,15,5379.5,10
+T0583,C0583,Please investigate general information about the property,General,Low,Neutral,11,516.75,0
+T0584,C0584,Can you explain general information about the property,General,High,Neutral,18,654.0,1
+T0585,C0585,I would appreciate help with general information about the property,General,Medium,Neutral,10,791.25,2
+T0586,C0586,Please help me with whether WiFi is available at the hotel,General,Low,Neutral,6,928.5,3
+T0587,C0587,I need assistance with whether WiFi is available at the hotel,General,High,Neutral,21,1065.75,4
+T0588,C0588,Can someone review whether WiFi is available at the hotel,General,Medium,Neutral,13,1203.0,5
+T0589,C0589,This is urgent because of whether WiFi is available at the hotel,General,Low,Neutral,9,1340.25,6
+T0590,C0590,I need an update about whether WiFi is available at the hotel,General,High,Neutral,24,1477.5,7
+T0591,C0591,Please resolve whether WiFi is available at the hotel,General,Medium,Neutral,16,1614.75,8
+T0592,C0592,Can you look into whether WiFi is available at the hotel,General,Low,Neutral,4,1752.0,9
+T0593,C0593,I would like clarification about whether WiFi is available at the hotel,General,High,Neutral,19,1889.25,10
+T0594,C0594,I need support with whether WiFi is available at the hotel,General,Medium,Neutral,11,2026.5,0
+T0595,C0595,Please check whether WiFi is available at the hotel,General,Low,Neutral,7,2163.75,1
+T0596,C0596,Could you help with whether WiFi is available at the hotel,General,High,Neutral,22,2301.0,2
+T0597,C0597,I need this fixed: whether WiFi is available at the hotel,General,Medium,Neutral,14,2438.25,3
+T0598,C0598,Please investigate whether WiFi is available at the hotel,General,Low,Neutral,10,2575.5,4
+T0599,C0599,Can you explain whether WiFi is available at the hotel,General,High,Neutral,25,2712.75,5
+T0600,C0600,I would appreciate help with whether WiFi is available at the hotel,General,Medium,Neutral,9,2850.0,6
+T0601,C0601,Please help me with my room was not ready when I arrived,Service,Low,Negative,5,2987.25,7
+T0602,C0602,I need assistance with my room was not ready when I arrived,Service,High,Negative,20,3124.5,8
+T0603,C0603,Can someone review my room was not ready when I arrived,Service,Medium,Neutral,12,3261.75,9
+T0604,C0604,This is urgent because of my room was not ready when I arrived,Service,Low,Negative,8,3399.0,10
+T0605,C0605,I need an update about my room was not ready when I arrived,Service,High,Negative,23,3536.25,0
+T0606,C0606,Please resolve my room was not ready when I arrived,Service,Medium,Neutral,15,3673.5,1
+T0607,C0607,Can you look into my room was not ready when I arrived,Service,Low,Negative,11,3810.75,2
+T0608,C0608,I would like clarification about my room was not ready when I arrived,Service,High,Negative,18,3948.0,3
+T0609,C0609,I need support with my room was not ready when I arrived,Service,Medium,Neutral,10,4085.25,4
+T0610,C0610,Please check my room was not ready when I arrived,Service,Low,Negative,6,4222.5,5
+T0611,C0611,Could you help with my room was not ready when I arrived,Service,High,Negative,21,4359.75,6
+T0612,C0612,I need this fixed: my room was not ready when I arrived,Service,Medium,Neutral,13,4497.0,7
+T0613,C0613,Please investigate my room was not ready when I arrived,Service,Low,Negative,9,4634.25,8
+T0614,C0614,Can you explain my room was not ready when I arrived,Service,High,Negative,24,4771.5,9
+T0615,C0615,I would appreciate help with my room was not ready when I arrived,Service,Medium,Neutral,16,4908.75,10
+T0616,C0616,Please help me with room was not cleaned properly,Service,Low,Negative,4,5046.0,0
+T0617,C0617,I need assistance with room was not cleaned properly,Service,High,Negative,19,5183.25,1
+T0618,C0618,Can someone review room was not cleaned properly,Service,Medium,Neutral,11,5320.5,2
+T0619,C0619,This is urgent because of room was not cleaned properly,Service,Low,Negative,7,5457.75,3
+T0620,C0620,I need an update about room was not cleaned properly,Service,High,Negative,22,595.0,4
+T0621,C0621,Please resolve room was not cleaned properly,Service,Medium,Neutral,14,732.25,5
+T0622,C0622,Can you look into room was not cleaned properly,Service,Low,Negative,10,869.5,6
+T0623,C0623,I would like clarification about room was not cleaned properly,Service,High,Negative,25,1006.75,7
+T0624,C0624,I need support with room was not cleaned properly,Service,Medium,Neutral,9,1144.0,8
+T0625,C0625,Please check room was not cleaned properly,Service,Low,Negative,5,1281.25,9
+T0626,C0626,Could you help with room was not cleaned properly,Service,High,Negative,20,1418.5,10
+T0627,C0627,I need this fixed: room was not cleaned properly,Service,Medium,Neutral,12,1555.75,0
+T0628,C0628,Please investigate room was not cleaned properly,Service,Low,Negative,8,1693.0,1
+T0629,C0629,Can you explain room was not cleaned properly,Service,High,Negative,23,1830.25,2
+T0630,C0630,I would appreciate help with room was not cleaned properly,Service,Medium,Neutral,15,1967.5,3
+T0631,C0631,Please help me with housekeeping did not clean my room,Service,Low,Negative,11,2104.75,4
+T0632,C0632,I need assistance with housekeeping did not clean my room,Service,High,Negative,18,2242.0,5
+T0633,C0633,Can someone review housekeeping did not clean my room,Service,Medium,Neutral,10,2379.25,6
+T0634,C0634,This is urgent because of housekeeping did not clean my room,Service,Low,Negative,6,2516.5,7
+T0635,C0635,I need an update about housekeeping did not clean my room,Service,High,Negative,21,2653.75,8
+T0636,C0636,Please resolve housekeeping did not clean my room,Service,Medium,Neutral,13,2791.0,9
+T0637,C0637,Can you look into housekeeping did not clean my room,Service,Low,Negative,9,2928.25,10
+T0638,C0638,I would like clarification about housekeeping did not clean my room,Service,High,Negative,24,3065.5,0
+T0639,C0639,I need support with housekeeping did not clean my room,Service,Medium,Neutral,16,3202.75,1
+T0640,C0640,Please check housekeeping did not clean my room,Service,Low,Negative,4,3340.0,2
+T0641,C0641,Could you help with housekeeping did not clean my room,Service,High,Negative,19,3477.25,3
+T0642,C0642,I need this fixed: housekeeping did not clean my room,Service,Medium,Neutral,11,3614.5,4
+T0643,C0643,Please investigate housekeeping did not clean my room,Service,Low,Negative,7,3751.75,5
+T0644,C0644,Can you explain housekeeping did not clean my room,Service,High,Negative,22,3889.0,6
+T0645,C0645,I would appreciate help with housekeeping did not clean my room,Service,Medium,Neutral,14,4026.25,7
+T0646,C0646,Please help me with hotel service was disappointing,Service,Low,Negative,10,4163.5,8
+T0647,C0647,I need assistance with hotel service was disappointing,Service,High,Negative,25,4300.75,9
+T0648,C0648,Can someone review hotel service was disappointing,Service,Medium,Neutral,9,4438.0,10
+T0649,C0649,This is urgent because of hotel service was disappointing,Service,Low,Negative,5,4575.25,0
+T0650,C0650,I need an update about hotel service was disappointing,Service,High,Negative,20,4712.5,1
+T0651,C0651,Please resolve hotel service was disappointing,Service,Medium,Neutral,12,4849.75,2
+T0652,C0652,Can you look into hotel service was disappointing,Service,Low,Negative,8,4987.0,3
+T0653,C0653,I would like clarification about hotel service was disappointing,Service,High,Negative,23,5124.25,4
+T0654,C0654,I need support with hotel service was disappointing,Service,Medium,Neutral,15,5261.5,5
+T0655,C0655,Please check hotel service was disappointing,Service,Low,Negative,11,5398.75,6
+T0656,C0656,Could you help with hotel service was disappointing,Service,High,Negative,18,536.0,7
+T0657,C0657,I need this fixed: hotel service was disappointing,Service,Medium,Neutral,10,673.25,8
+T0658,C0658,Please investigate hotel service was disappointing,Service,Low,Negative,6,810.5,9
+T0659,C0659,Can you explain hotel service was disappointing,Service,High,Negative,21,947.75,10
+T0660,C0660,I would appreciate help with hotel service was disappointing,Service,Medium,Neutral,13,1085.0,0
+T0661,C0661,Please help me with waiting for room service,Service,Low,Negative,9,1222.25,1
+T0662,C0662,I need assistance with waiting for room service,Service,High,Negative,24,1359.5,2
+T0663,C0663,Can someone review waiting for room service,Service,Medium,Neutral,16,1496.75,3
+T0664,C0664,This is urgent because of waiting for room service,Service,Low,Negative,4,1634.0,4
+T0665,C0665,I need an update about waiting for room service,Service,High,Negative,19,1771.25,5
+T0666,C0666,Please resolve waiting for room service,Service,Medium,Neutral,11,1908.5,6
+T0667,C0667,Can you look into waiting for room service,Service,Low,Negative,7,2045.75,7
+T0668,C0668,I would like clarification about waiting for room service,Service,High,Negative,22,2183.0,8
+T0669,C0669,I need support with waiting for room service,Service,Medium,Neutral,14,2320.25,9
+T0670,C0670,Please check waiting for room service,Service,Low,Negative,10,2457.5,10
+T0671,C0671,Could you help with waiting for room service,Service,High,Negative,25,2594.75,0
+T0672,C0672,I need this fixed: waiting for room service,Service,Medium,Neutral,9,2732.0,1
+T0673,C0673,Please investigate waiting for room service,Service,Low,Negative,5,2869.25,2
+T0674,C0674,Can you explain waiting for room service,Service,High,Negative,20,3006.5,3
+T0675,C0675,I would appreciate help with waiting for room service,Service,Medium,Neutral,12,3143.75,4
+T0676,C0676,Please help me with hotel staff did not help me,Service,Low,Negative,8,3281.0,5
+T0677,C0677,I need assistance with hotel staff did not help me,Service,High,Negative,23,3418.25,6
+T0678,C0678,Can someone review hotel staff did not help me,Service,Medium,Neutral,15,3555.5,7
+T0679,C0679,This is urgent because of hotel staff did not help me,Service,Low,Negative,11,3692.75,8
+T0680,C0680,I need an update about hotel staff did not help me,Service,High,Negative,18,3830.0,9
+T0681,C0681,Please resolve hotel staff did not help me,Service,Medium,Neutral,10,3967.25,10
+T0682,C0682,Can you look into hotel staff did not help me,Service,Low,Negative,6,4104.5,0
+T0683,C0683,I would like clarification about hotel staff did not help me,Service,High,Negative,21,4241.75,1
+T0684,C0684,I need support with hotel staff did not help me,Service,Medium,Neutral,13,4379.0,2
+T0685,C0685,Please check hotel staff did not help me,Service,Low,Negative,9,4516.25,3
+T0686,C0686,Could you help with hotel staff did not help me,Service,High,Negative,24,4653.5,4
+T0687,C0687,I need this fixed: hotel staff did not help me,Service,Medium,Neutral,16,4790.75,5
+T0688,C0688,Please investigate hotel staff did not help me,Service,Low,Negative,4,4928.0,6
+T0689,C0689,Can you explain hotel staff did not help me,Service,High,Negative,19,5065.25,7
+T0690,C0690,I would appreciate help with hotel staff did not help me,Service,Medium,Neutral,11,5202.5,8
+T0691,C0691,Please help me with problem with the service I received,Service,Low,Negative,7,5339.75,9
+T0692,C0692,I need assistance with problem with the service I received,Service,High,Negative,22,5477.0,10
+T0693,C0693,Can someone review problem with the service I received,Service,Medium,Neutral,14,614.25,0
+T0694,C0694,This is urgent because of problem with the service I received,Service,Low,Negative,10,751.5,1
+T0695,C0695,I need an update about problem with the service I received,Service,High,Negative,25,888.75,2
+T0696,C0696,Please resolve problem with the service I received,Service,Medium,Neutral,9,1026.0,3
+T0697,C0697,Can you look into problem with the service I received,Service,Low,Negative,5,1163.25,4
+T0698,C0698,I would like clarification about problem with the service I received,Service,High,Negative,20,1300.5,5
+T0699,C0699,I need support with problem with the service I received,Service,Medium,Neutral,12,1437.75,6
+T0700,C0700,Please check problem with the service I received,Service,Low,Negative,8,1575.0,7
+T0701,C0701,Could you help with problem with the service I received,Service,High,Negative,23,1712.25,8
+T0702,C0702,I need this fixed: problem with the service I received,Service,Medium,Neutral,15,1849.5,9
+T0703,C0703,Please investigate problem with the service I received,Service,Low,Negative,11,1986.75,10
+T0704,C0704,Can you explain problem with the service I received,Service,High,Negative,18,2124.0,0
+T0705,C0705,I would appreciate help with problem with the service I received,Service,Medium,Neutral,10,2261.25,1
+T0706,C0706,Please help me with room service order is late,Service,Low,Negative,6,2398.5,2
+T0707,C0707,I need assistance with room service order is late,Service,High,Negative,21,2535.75,3
+T0708,C0708,Can someone review room service order is late,Service,Medium,Neutral,13,2673.0,4
+T0709,C0709,This is urgent because of room service order is late,Service,Low,Negative,9,2810.25,5
+T0710,C0710,I need an update about room service order is late,Service,High,Negative,24,2947.5,6
+T0711,C0711,Please resolve room service order is late,Service,Medium,Neutral,16,3084.75,7
+T0712,C0712,Can you look into room service order is late,Service,Low,Negative,4,3222.0,8
+T0713,C0713,I would like clarification about room service order is late,Service,High,Negative,19,3359.25,9
+T0714,C0714,I need support with room service order is late,Service,Medium,Neutral,11,3496.5,10
+T0715,C0715,Please check room service order is late,Service,Low,Negative,7,3633.75,0
+T0716,C0716,Could you help with room service order is late,Service,High,Negative,22,3771.0,1
+T0717,C0717,I need this fixed: room service order is late,Service,Medium,Neutral,14,3908.25,2
+T0718,C0718,Please investigate room service order is late,Service,Low,Negative,10,4045.5,3
+T0719,C0719,Can you explain room service order is late,Service,High,Negative,25,4182.75,4
+T0720,C0720,I would appreciate help with room service order is late,Service,Medium,Neutral,9,4320.0,5
+T0721,C0721,Please help me with room was not prepared properly,Service,Low,Negative,5,4457.25,6
+T0722,C0722,I need assistance with room was not prepared properly,Service,High,Negative,20,4594.5,7
+T0723,C0723,Can someone review room was not prepared properly,Service,Medium,Neutral,12,4731.75,8
+T0724,C0724,This is urgent because of room was not prepared properly,Service,Low,Negative,8,4869.0,9
+T0725,C0725,I need an update about room was not prepared properly,Service,High,Negative,23,5006.25,10
+T0726,C0726,Please resolve room was not prepared properly,Service,Medium,Neutral,15,5143.5,0
+T0727,C0727,Can you look into room was not prepared properly,Service,Low,Negative,11,5280.75,1
+T0728,C0728,I would like clarification about room was not prepared properly,Service,High,Negative,18,5418.0,2
+T0729,C0729,I need support with room was not prepared properly,Service,Medium,Neutral,10,555.25,3
+T0730,C0730,Please check room was not prepared properly,Service,Low,Negative,6,692.5,4
+T0731,C0731,Could you help with room was not prepared properly,Service,High,Negative,21,829.75,5
+T0732,C0732,I need this fixed: room was not prepared properly,Service,Medium,Neutral,13,967.0,6
+T0733,C0733,Please investigate room was not prepared properly,Service,Low,Negative,9,1104.25,7
+T0734,C0734,Can you explain room was not prepared properly,Service,High,Negative,24,1241.5,8
+T0735,C0735,I would appreciate help with room was not prepared properly,Service,Medium,Neutral,16,1378.75,9
+T0736,C0736,Please help me with hotel service issue,Service,Low,Negative,4,1516.0,10
+T0737,C0737,I need assistance with hotel service issue,Service,High,Negative,19,1653.25,0
+T0738,C0738,Can someone review hotel service issue,Service,Medium,Neutral,11,1790.5,1
+T0739,C0739,This is urgent because of hotel service issue,Service,Low,Negative,7,1927.75,2
+T0740,C0740,I need an update about hotel service issue,Service,High,Negative,22,2065.0,3
+T0741,C0741,Please resolve hotel service issue,Service,Medium,Neutral,14,2202.25,4
+T0742,C0742,Can you look into hotel service issue,Service,Low,Negative,10,2339.5,5
+T0743,C0743,I would like clarification about hotel service issue,Service,High,Negative,25,2476.75,6
+T0744,C0744,I need support with hotel service issue,Service,Medium,Neutral,9,2614.0,7
+T0745,C0745,Please check hotel service issue,Service,Low,Negative,5,2751.25,8
+T0746,C0746,Could you help with hotel service issue,Service,High,Negative,20,2888.5,9
+T0747,C0747,I need this fixed: hotel service issue,Service,Medium,Neutral,12,3025.75,10
+T0748,C0748,Please investigate hotel service issue,Service,Low,Negative,8,3163.0,0
+T0749,C0749,Can you explain hotel service issue,Service,High,Negative,23,3300.25,1
+T0750,C0750,I would appreciate help with hotel service issue,Service,Medium,Neutral,15,3437.5,2
+T0751,C0751,Please help me with cannot log into my account,Account,Low,Negative,11,3574.75,3
+T0752,C0752,I need assistance with cannot log into my account,Account,High,Negative,18,3712.0,4
+T0753,C0753,Can someone review cannot log into my account,Account,Medium,Neutral,10,3849.25,5
+T0754,C0754,This is urgent because of cannot log into my account,Account,Low,Negative,6,3986.5,6
+T0755,C0755,I need an update about cannot log into my account,Account,High,Negative,21,4123.75,7
+T0756,C0756,Please resolve cannot log into my account,Account,Medium,Neutral,13,4261.0,8
+T0757,C0757,Can you look into cannot log into my account,Account,Low,Negative,9,4398.25,9
+T0758,C0758,I would like clarification about cannot log into my account,Account,High,Negative,24,4535.5,10
+T0759,C0759,I need support with cannot log into my account,Account,Medium,Neutral,16,4672.75,0
+T0760,C0760,Please check cannot log into my account,Account,Low,Negative,4,4810.0,1
+T0761,C0761,Could you help with cannot log into my account,Account,High,Negative,19,4947.25,2
+T0762,C0762,I need this fixed: cannot log into my account,Account,Medium,Neutral,11,5084.5,3
+T0763,C0763,Please investigate cannot log into my account,Account,Low,Negative,7,5221.75,4
+T0764,C0764,Can you explain cannot log into my account,Account,High,Negative,22,5359.0,5
+T0765,C0765,I would appreciate help with cannot log into my account,Account,Medium,Neutral,14,5496.25,6
+T0766,C0766,Please help me with forgot my account password,Account,Low,Negative,10,633.5,7
+T0767,C0767,I need assistance with forgot my account password,Account,High,Negative,25,770.75,8
+T0768,C0768,Can someone review forgot my account password,Account,Medium,Neutral,9,908.0,9
+T0769,C0769,This is urgent because of forgot my account password,Account,Low,Negative,5,1045.25,10
+T0770,C0770,I need an update about forgot my account password,Account,High,Negative,20,1182.5,0
+T0771,C0771,Please resolve forgot my account password,Account,Medium,Neutral,12,1319.75,1
+T0772,C0772,Can you look into forgot my account password,Account,Low,Negative,8,1457.0,2
+T0773,C0773,I would like clarification about forgot my account password,Account,High,Negative,23,1594.25,3
+T0774,C0774,I need support with forgot my account password,Account,Medium,Neutral,15,1731.5,4
+T0775,C0775,Please check forgot my account password,Account,Low,Negative,11,1868.75,5
+T0776,C0776,Could you help with forgot my account password,Account,High,Negative,18,2006.0,6
+T0777,C0777,I need this fixed: forgot my account password,Account,Medium,Neutral,10,2143.25,7
+T0778,C0778,Please investigate forgot my account password,Account,Low,Negative,6,2280.5,8
+T0779,C0779,Can you explain forgot my account password,Account,High,Negative,21,2417.75,9
+T0780,C0780,I would appreciate help with forgot my account password,Account,Medium,Neutral,13,2555.0,10
+T0781,C0781,Please help me with reset my password,Account,Low,Negative,9,2692.25,0
+T0782,C0782,I need assistance with reset my password,Account,High,Negative,24,2829.5,1
+T0783,C0783,Can someone review reset my password,Account,Medium,Neutral,16,2966.75,2
+T0784,C0784,This is urgent because of reset my password,Account,Low,Negative,4,3104.0,3
+T0785,C0785,I need an update about reset my password,Account,High,Negative,19,3241.25,4
+T0786,C0786,Please resolve reset my password,Account,Medium,Neutral,11,3378.5,5
+T0787,C0787,Can you look into reset my password,Account,Low,Negative,7,3515.75,6
+T0788,C0788,I would like clarification about reset my password,Account,High,Negative,22,3653.0,7
+T0789,C0789,I need support with reset my password,Account,Medium,Neutral,14,3790.25,8
+T0790,C0790,Please check reset my password,Account,Low,Negative,10,3927.5,9
+T0791,C0791,Could you help with reset my password,Account,High,Negative,25,4064.75,10
+T0792,C0792,I need this fixed: reset my password,Account,Medium,Neutral,9,4202.0,0
+T0793,C0793,Please investigate reset my password,Account,Low,Negative,5,4339.25,1
+T0794,C0794,Can you explain reset my password,Account,High,Negative,20,4476.5,2
+T0795,C0795,I would appreciate help with reset my password,Account,Medium,Neutral,12,4613.75,3
+T0796,C0796,Please help me with account has been locked,Account,Low,Negative,8,4751.0,4
+T0797,C0797,I need assistance with account has been locked,Account,High,Negative,23,4888.25,5
+T0798,C0798,Can someone review account has been locked,Account,Medium,Neutral,15,5025.5,6
+T0799,C0799,This is urgent because of account has been locked,Account,Low,Negative,11,5162.75,7
+T0800,C0800,I need an update about account has been locked,Account,High,Negative,18,5300.0,8
+T0801,C0801,Please resolve account has been locked,Account,Medium,Neutral,10,5437.25,9
+T0802,C0802,Can you look into account has been locked,Account,Low,Negative,6,574.5,10
+T0803,C0803,I would like clarification about account has been locked,Account,High,Negative,21,711.75,0
+T0804,C0804,I need support with account has been locked,Account,Medium,Neutral,13,849.0,1
+T0805,C0805,Please check account has been locked,Account,Low,Negative,9,986.25,2
+T0806,C0806,Could you help with account has been locked,Account,High,Negative,24,1123.5,3
+T0807,C0807,I need this fixed: account has been locked,Account,Medium,Neutral,16,1260.75,4
+T0808,C0808,Please investigate account has been locked,Account,Low,Negative,4,1398.0,5
+T0809,C0809,Can you explain account has been locked,Account,High,Negative,19,1535.25,6
+T0810,C0810,I would appreciate help with account has been locked,Account,Medium,Neutral,11,1672.5,7
+T0811,C0811,Please help me with update my account information,Account,Low,Negative,7,1809.75,8
+T0812,C0812,I need assistance with update my account information,Account,High,Negative,22,1947.0,9
+T0813,C0813,Can someone review update my account information,Account,Medium,Neutral,14,2084.25,10
+T0814,C0814,This is urgent because of update my account information,Account,Low,Negative,10,2221.5,0
+T0815,C0815,I need an update about update my account information,Account,High,Negative,25,2358.75,1
+T0816,C0816,Please resolve update my account information,Account,Medium,Neutral,9,2496.0,2
+T0817,C0817,Can you look into update my account information,Account,Low,Negative,5,2633.25,3
+T0818,C0818,I would like clarification about update my account information,Account,High,Negative,20,2770.5,4
+T0819,C0819,I need support with update my account information,Account,Medium,Neutral,12,2907.75,5
+T0820,C0820,Please check update my account information,Account,Low,Negative,8,3045.0,6
+T0821,C0821,Could you help with update my account information,Account,High,Negative,23,3182.25,7
+T0822,C0822,I need this fixed: update my account information,Account,Medium,Neutral,15,3319.5,8
+T0823,C0823,Please investigate update my account information,Account,Low,Negative,11,3456.75,9
+T0824,C0824,Can you explain update my account information,Account,High,Negative,18,3594.0,10
+T0825,C0825,I would appreciate help with update my account information,Account,Medium,Neutral,10,3731.25,0
+T0826,C0826,Please help me with cannot access my customer account,Account,Low,Negative,6,3868.5,1
+T0827,C0827,I need assistance with cannot access my customer account,Account,High,Negative,21,4005.75,2
+T0828,C0828,Can someone review cannot access my customer account,Account,Medium,Neutral,13,4143.0,3
+T0829,C0829,This is urgent because of cannot access my customer account,Account,Low,Negative,9,4280.25,4
+T0830,C0830,I need an update about cannot access my customer account,Account,High,Negative,24,4417.5,5
+T0831,C0831,Please resolve cannot access my customer account,Account,Medium,Neutral,16,4554.75,6
+T0832,C0832,Can you look into cannot access my customer account,Account,Low,Negative,4,4692.0,7
+T0833,C0833,I would like clarification about cannot access my customer account,Account,High,Negative,19,4829.25,8
+T0834,C0834,I need support with cannot access my customer account,Account,Medium,Neutral,11,4966.5,9
+T0835,C0835,Please check cannot access my customer account,Account,Low,Negative,7,5103.75,10
+T0836,C0836,Could you help with cannot access my customer account,Account,High,Negative,22,5241.0,0
+T0837,C0837,I need this fixed: cannot access my customer account,Account,Medium,Neutral,14,5378.25,1
+T0838,C0838,Please investigate cannot access my customer account,Account,Low,Negative,10,515.5,2
+T0839,C0839,Can you explain cannot access my customer account,Account,High,Negative,25,652.75,3
+T0840,C0840,I would appreciate help with cannot access my customer account,Account,Medium,Neutral,9,790.0,4
+T0841,C0841,Please help me with change my email address,Account,Low,Negative,5,927.25,5
+T0842,C0842,I need assistance with change my email address,Account,High,Negative,20,1064.5,6
+T0843,C0843,Can someone review change my email address,Account,Medium,Neutral,12,1201.75,7
+T0844,C0844,This is urgent because of change my email address,Account,Low,Negative,8,1339.0,8
+T0845,C0845,I need an update about change my email address,Account,High,Negative,23,1476.25,9
+T0846,C0846,Please resolve change my email address,Account,Medium,Neutral,15,1613.5,10
+T0847,C0847,Can you look into change my email address,Account,Low,Negative,11,1750.75,0
+T0848,C0848,I would like clarification about change my email address,Account,High,Negative,18,1888.0,1
+T0849,C0849,I need support with change my email address,Account,Medium,Neutral,10,2025.25,2
+T0850,C0850,Please check change my email address,Account,Low,Negative,6,2162.5,3
+T0851,C0851,Could you help with change my email address,Account,High,Negative,21,2299.75,4
+T0852,C0852,I need this fixed: change my email address,Account,Medium,Neutral,13,2437.0,5
+T0853,C0853,Please investigate change my email address,Account,Low,Negative,9,2574.25,6
+T0854,C0854,Can you explain change my email address,Account,High,Negative,24,2711.5,7
+T0855,C0855,I would appreciate help with change my email address,Account,Medium,Neutral,16,2848.75,8
+T0856,C0856,Please help me with login credentials are not working,Account,Low,Negative,4,2986.0,9
+T0857,C0857,I need assistance with login credentials are not working,Account,High,Negative,19,3123.25,10
+T0858,C0858,Can someone review login credentials are not working,Account,Medium,Neutral,11,3260.5,0
+T0859,C0859,This is urgent because of login credentials are not working,Account,Low,Negative,7,3397.75,1
+T0860,C0860,I need an update about login credentials are not working,Account,High,Negative,22,3535.0,2
+T0861,C0861,Please resolve login credentials are not working,Account,Medium,Neutral,14,3672.25,3
+T0862,C0862,Can you look into login credentials are not working,Account,Low,Negative,10,3809.5,4
+T0863,C0863,I would like clarification about login credentials are not working,Account,High,Negative,25,3946.75,5
+T0864,C0864,I need support with login credentials are not working,Account,Medium,Neutral,9,4084.0,6
+T0865,C0865,Please check login credentials are not working,Account,Low,Negative,5,4221.25,7
+T0866,C0866,Could you help with login credentials are not working,Account,High,Negative,20,4358.5,8
+T0867,C0867,I need this fixed: login credentials are not working,Account,Medium,Neutral,12,4495.75,9
+T0868,C0868,Please investigate login credentials are not working,Account,Low,Negative,8,4633.0,10
+T0869,C0869,Can you explain login credentials are not working,Account,High,Negative,23,4770.25,0
+T0870,C0870,I would appreciate help with login credentials are not working,Account,Medium,Neutral,15,4907.5,1
+T0871,C0871,Please help me with help accessing my profile,Account,Low,Negative,11,5044.75,2
+T0872,C0872,I need assistance with help accessing my profile,Account,High,Negative,18,5182.0,3
+T0873,C0873,Can someone review help accessing my profile,Account,Medium,Neutral,10,5319.25,4
+T0874,C0874,This is urgent because of help accessing my profile,Account,Low,Negative,6,5456.5,5
+T0875,C0875,I need an update about help accessing my profile,Account,High,Negative,21,593.75,6
+T0876,C0876,Please resolve help accessing my profile,Account,Medium,Neutral,13,731.0,7
+T0877,C0877,Can you look into help accessing my profile,Account,Low,Negative,9,868.25,8
+T0878,C0878,I would like clarification about help accessing my profile,Account,High,Negative,24,1005.5,9
+T0879,C0879,I need support with help accessing my profile,Account,Medium,Neutral,16,1142.75,10
+T0880,C0880,Please check help accessing my profile,Account,Low,Negative,4,1280.0,0
+T0881,C0881,Could you help with help accessing my profile,Account,High,Negative,19,1417.25,1
+T0882,C0882,I need this fixed: help accessing my profile,Account,Medium,Neutral,11,1554.5,2
+T0883,C0883,Please investigate help accessing my profile,Account,Low,Negative,7,1691.75,3
+T0884,C0884,Can you explain help accessing my profile,Account,High,Negative,22,1829.0,4
+T0885,C0885,I would appreciate help with help accessing my profile,Account,Medium,Neutral,14,1966.25,5
+T0886,C0886,Please help me with change my account details,Account,Low,Negative,10,2103.5,6
+T0887,C0887,I need assistance with change my account details,Account,High,Negative,25,2240.75,7
+T0888,C0888,Can someone review change my account details,Account,Medium,Neutral,9,2378.0,8
+T0889,C0889,This is urgent because of change my account details,Account,Low,Negative,5,2515.25,9
+T0890,C0890,I need an update about change my account details,Account,High,Negative,20,2652.5,10
+T0891,C0891,Please resolve change my account details,Account,Medium,Neutral,12,2789.75,0
+T0892,C0892,Can you look into change my account details,Account,Low,Negative,8,2927.0,1
+T0893,C0893,I would like clarification about change my account details,Account,High,Negative,23,3064.25,2
+T0894,C0894,I need support with change my account details,Account,Medium,Neutral,15,3201.5,3
+T0895,C0895,Please check change my account details,Account,Low,Negative,11,3338.75,4
+T0896,C0896,Could you help with change my account details,Account,High,Negative,18,3476.0,5
+T0897,C0897,I need this fixed: change my account details,Account,Medium,Neutral,10,3613.25,6
+T0898,C0898,Please investigate change my account details,Account,Low,Negative,6,3750.5,7
+T0899,C0899,Can you explain change my account details,Account,High,Negative,21,3887.75,8
+T0900,C0900,I would appreciate help with change my account details,Account,Medium,Neutral,13,4025.0,9
+T0901,C0901,Please help me with redeem my loyalty points,Loyalty,Low,Neutral,9,4162.25,10
+T0902,C0902,I need assistance with redeem my loyalty points,Loyalty,High,Neutral,24,4299.5,0
+T0903,C0903,Can someone review redeem my loyalty points,Loyalty,Medium,Neutral,16,4436.75,1
+T0904,C0904,This is urgent because of redeem my loyalty points,Loyalty,Low,Neutral,4,4574.0,2
+T0905,C0905,I need an update about redeem my loyalty points,Loyalty,High,Neutral,19,4711.25,3
+T0906,C0906,Please resolve redeem my loyalty points,Loyalty,Medium,Neutral,11,4848.5,4
+T0907,C0907,Can you look into redeem my loyalty points,Loyalty,Low,Neutral,7,4985.75,5
+T0908,C0908,I would like clarification about redeem my loyalty points,Loyalty,High,Neutral,22,5123.0,6
+T0909,C0909,I need support with redeem my loyalty points,Loyalty,Medium,Neutral,14,5260.25,7
+T0910,C0910,Please check redeem my loyalty points,Loyalty,Low,Neutral,10,5397.5,8
+T0911,C0911,Could you help with redeem my loyalty points,Loyalty,High,Neutral,25,534.75,9
+T0912,C0912,I need this fixed: redeem my loyalty points,Loyalty,Medium,Neutral,9,672.0,10
+T0913,C0913,Please investigate redeem my loyalty points,Loyalty,Low,Neutral,5,809.25,0
+T0914,C0914,Can you explain redeem my loyalty points,Loyalty,High,Neutral,20,946.5,1
+T0915,C0915,I would appreciate help with redeem my loyalty points,Loyalty,Medium,Neutral,12,1083.75,2
+T0916,C0916,Please help me with use my rewards points,Loyalty,Low,Neutral,8,1221.0,3
+T0917,C0917,I need assistance with use my rewards points,Loyalty,High,Neutral,23,1358.25,4
+T0918,C0918,Can someone review use my rewards points,Loyalty,Medium,Neutral,15,1495.5,5
+T0919,C0919,This is urgent because of use my rewards points,Loyalty,Low,Neutral,11,1632.75,6
+T0920,C0920,I need an update about use my rewards points,Loyalty,High,Neutral,18,1770.0,7
+T0921,C0921,Please resolve use my rewards points,Loyalty,Medium,Neutral,10,1907.25,8
+T0922,C0922,Can you look into use my rewards points,Loyalty,Low,Neutral,6,2044.5,9
+T0923,C0923,I would like clarification about use my rewards points,Loyalty,High,Neutral,21,2181.75,10
+T0924,C0924,I need support with use my rewards points,Loyalty,Medium,Neutral,13,2319.0,0
+T0925,C0925,Please check use my rewards points,Loyalty,Low,Neutral,9,2456.25,1
+T0926,C0926,Could you help with use my rewards points,Loyalty,High,Neutral,24,2593.5,2
+T0927,C0927,I need this fixed: use my rewards points,Loyalty,Medium,Neutral,16,2730.75,3
+T0928,C0928,Please investigate use my rewards points,Loyalty,Low,Neutral,4,2868.0,4
+T0929,C0929,Can you explain use my rewards points,Loyalty,High,Neutral,19,3005.25,5
+T0930,C0930,I would appreciate help with use my rewards points,Loyalty,Medium,Neutral,11,3142.5,6
+T0931,C0931,Please help me with check my loyalty points balance,Loyalty,Low,Neutral,7,3279.75,7
+T0932,C0932,I need assistance with check my loyalty points balance,Loyalty,High,Neutral,22,3417.0,8
+T0933,C0933,Can someone review check my loyalty points balance,Loyalty,Medium,Neutral,14,3554.25,9
+T0934,C0934,This is urgent because of check my loyalty points balance,Loyalty,Low,Neutral,10,3691.5,10
+T0935,C0935,I need an update about check my loyalty points balance,Loyalty,High,Neutral,25,3828.75,0
+T0936,C0936,Please resolve check my loyalty points balance,Loyalty,Medium,Neutral,9,3966.0,1
+T0937,C0937,Can you look into check my loyalty points balance,Loyalty,Low,Neutral,5,4103.25,2
+T0938,C0938,I would like clarification about check my loyalty points balance,Loyalty,High,Neutral,20,4240.5,3
+T0939,C0939,I need support with check my loyalty points balance,Loyalty,Medium,Neutral,12,4377.75,4
+T0940,C0940,Please check check my loyalty points balance,Loyalty,Low,Neutral,8,4515.0,5
+T0941,C0941,Could you help with check my loyalty points balance,Loyalty,High,Neutral,23,4652.25,6
+T0942,C0942,I need this fixed: check my loyalty points balance,Loyalty,Medium,Neutral,15,4789.5,7
+T0943,C0943,Please investigate check my loyalty points balance,Loyalty,Low,Neutral,11,4926.75,8
+T0944,C0944,Can you explain check my loyalty points balance,Loyalty,High,Neutral,18,5064.0,9
+T0945,C0945,I would appreciate help with check my loyalty points balance,Loyalty,Medium,Neutral,10,5201.25,10
+T0946,C0946,Please help me with redeem points for a hotel stay,Loyalty,Low,Neutral,6,5338.5,0
+T0947,C0947,I need assistance with redeem points for a hotel stay,Loyalty,High,Neutral,21,5475.75,1
+T0948,C0948,Can someone review redeem points for a hotel stay,Loyalty,Medium,Neutral,13,613.0,2
+T0949,C0949,This is urgent because of redeem points for a hotel stay,Loyalty,Low,Neutral,9,750.25,3
+T0950,C0950,I need an update about redeem points for a hotel stay,Loyalty,High,Neutral,24,887.5,4
+T0951,C0951,Please resolve redeem points for a hotel stay,Loyalty,Medium,Neutral,16,1024.75,5
+T0952,C0952,Can you look into redeem points for a hotel stay,Loyalty,Low,Neutral,4,1162.0,6
+T0953,C0953,I would like clarification about redeem points for a hotel stay,Loyalty,High,Neutral,19,1299.25,7
+T0954,C0954,I need support with redeem points for a hotel stay,Loyalty,Medium,Neutral,11,1436.5,8
+T0955,C0955,Please check redeem points for a hotel stay,Loyalty,Low,Neutral,7,1573.75,9
+T0956,C0956,Could you help with redeem points for a hotel stay,Loyalty,High,Neutral,22,1711.0,10
+T0957,C0957,I need this fixed: redeem points for a hotel stay,Loyalty,Medium,Neutral,14,1848.25,0
+T0958,C0958,Please investigate redeem points for a hotel stay,Loyalty,Low,Neutral,10,1985.5,1
+T0959,C0959,Can you explain redeem points for a hotel stay,Loyalty,High,Neutral,25,2122.75,2
+T0960,C0960,I would appreciate help with redeem points for a hotel stay,Loyalty,Medium,Neutral,9,2260.0,3
+T0961,C0961,Please help me with loyalty points are missing,Loyalty,Low,Neutral,5,2397.25,4
+T0962,C0962,I need assistance with loyalty points are missing,Loyalty,High,Neutral,20,2534.5,5
+T0963,C0963,Can someone review loyalty points are missing,Loyalty,Medium,Neutral,12,2671.75,6
+T0964,C0964,This is urgent because of loyalty points are missing,Loyalty,Low,Neutral,8,2809.0,7
+T0965,C0965,I need an update about loyalty points are missing,Loyalty,High,Neutral,23,2946.25,8
+T0966,C0966,Please resolve loyalty points are missing,Loyalty,Medium,Neutral,15,3083.5,9
+T0967,C0967,Can you look into loyalty points are missing,Loyalty,Low,Neutral,11,3220.75,10
+T0968,C0968,I would like clarification about loyalty points are missing,Loyalty,High,Neutral,18,3358.0,0
+T0969,C0969,I need support with loyalty points are missing,Loyalty,Medium,Neutral,10,3495.25,1
+T0970,C0970,Please check loyalty points are missing,Loyalty,Low,Neutral,6,3632.5,2
+T0971,C0971,Could you help with loyalty points are missing,Loyalty,High,Neutral,21,3769.75,3
+T0972,C0972,I need this fixed: loyalty points are missing,Loyalty,Medium,Neutral,13,3907.0,4
+T0973,C0973,Please investigate loyalty points are missing,Loyalty,Low,Neutral,9,4044.25,5
+T0974,C0974,Can you explain loyalty points are missing,Loyalty,High,Neutral,24,4181.5,6
+T0975,C0975,I would appreciate help with loyalty points are missing,Loyalty,Medium,Neutral,16,4318.75,7
+T0976,C0976,Please help me with rewards balance changed,Loyalty,Low,Neutral,4,4456.0,8
+T0977,C0977,I need assistance with rewards balance changed,Loyalty,High,Neutral,19,4593.25,9
+T0978,C0978,Can someone review rewards balance changed,Loyalty,Medium,Neutral,11,4730.5,10
+T0979,C0979,This is urgent because of rewards balance changed,Loyalty,Low,Neutral,7,4867.75,0
+T0980,C0980,I need an update about rewards balance changed,Loyalty,High,Neutral,22,5005.0,1
+T0981,C0981,Please resolve rewards balance changed,Loyalty,Medium,Neutral,14,5142.25,2
+T0982,C0982,Can you look into rewards balance changed,Loyalty,Low,Neutral,10,5279.5,3
+T0983,C0983,I would like clarification about rewards balance changed,Loyalty,High,Neutral,25,5416.75,4
+T0984,C0984,I need support with rewards balance changed,Loyalty,Medium,Neutral,9,554.0,5
+T0985,C0985,Please check rewards balance changed,Loyalty,Low,Neutral,5,691.25,6
+T0986,C0986,Could you help with rewards balance changed,Loyalty,High,Neutral,20,828.5,7
+T0987,C0987,I need this fixed: rewards balance changed,Loyalty,Medium,Neutral,12,965.75,8
+T0988,C0988,Please investigate rewards balance changed,Loyalty,Low,Neutral,8,1103.0,9
+T0989,C0989,Can you explain rewards balance changed,Loyalty,High,Neutral,23,1240.25,10
+T0990,C0990,I would appreciate help with rewards balance changed,Loyalty,Medium,Neutral,15,1377.5,0
+T0991,C0991,Please help me with earn more loyalty points,Loyalty,Low,Neutral,11,1514.75,1
+T0992,C0992,I need assistance with earn more loyalty points,Loyalty,High,Neutral,18,1652.0,2
+T0993,C0993,Can someone review earn more loyalty points,Loyalty,Medium,Neutral,10,1789.25,3
+T0994,C0994,This is urgent because of earn more loyalty points,Loyalty,Low,Neutral,6,1926.5,4
+T0995,C0995,I need an update about earn more loyalty points,Loyalty,High,Neutral,21,2063.75,5
+T0996,C0996,Please resolve earn more loyalty points,Loyalty,Medium,Neutral,13,2201.0,6
+T0997,C0997,Can you look into earn more loyalty points,Loyalty,Low,Neutral,9,2338.25,7
+T0998,C0998,I would like clarification about earn more loyalty points,Loyalty,High,Neutral,24,2475.5,8
+T0999,C0999,I need support with earn more loyalty points,Loyalty,Medium,Neutral,16,2612.75,9
+T1000,C1000,Please check earn more loyalty points,Loyalty,Low,Neutral,4,2750.0,10
+T1001,C1001,Could you help with earn more loyalty points,Loyalty,High,Neutral,19,2887.25,0
+T1002,C1002,I need this fixed: earn more loyalty points,Loyalty,Medium,Neutral,11,3024.5,1
+T1003,C1003,Please investigate earn more loyalty points,Loyalty,Low,Neutral,7,3161.75,2
+T1004,C1004,Can you explain earn more loyalty points,Loyalty,High,Neutral,22,3299.0,3
+T1005,C1005,I would appreciate help with earn more loyalty points,Loyalty,Medium,Neutral,14,3436.25,4
+T1006,C1006,Please help me with transfer my loyalty points,Loyalty,Low,Neutral,10,3573.5,5
+T1007,C1007,I need assistance with transfer my loyalty points,Loyalty,High,Neutral,25,3710.75,6
+T1008,C1008,Can someone review transfer my loyalty points,Loyalty,Medium,Neutral,9,3848.0,7
+T1009,C1009,This is urgent because of transfer my loyalty points,Loyalty,Low,Neutral,5,3985.25,8
+T1010,C1010,I need an update about transfer my loyalty points,Loyalty,High,Neutral,20,4122.5,9
+T1011,C1011,Please resolve transfer my loyalty points,Loyalty,Medium,Neutral,12,4259.75,10
+T1012,C1012,Can you look into transfer my loyalty points,Loyalty,Low,Neutral,8,4397.0,0
+T1013,C1013,I would like clarification about transfer my loyalty points,Loyalty,High,Neutral,23,4534.25,1
+T1014,C1014,I need support with transfer my loyalty points,Loyalty,Medium,Neutral,15,4671.5,2
+T1015,C1015,Please check transfer my loyalty points,Loyalty,Low,Neutral,11,4808.75,3
+T1016,C1016,Could you help with transfer my loyalty points,Loyalty,High,Neutral,18,4946.0,4
+T1017,C1017,I need this fixed: transfer my loyalty points,Loyalty,Medium,Neutral,10,5083.25,5
+T1018,C1018,Please investigate transfer my loyalty points,Loyalty,Low,Neutral,6,5220.5,6
+T1019,C1019,Can you explain transfer my loyalty points,Loyalty,High,Neutral,21,5357.75,7
+T1020,C1020,I would appreciate help with transfer my loyalty points,Loyalty,Medium,Neutral,13,5495.0,8
+T1021,C1021,Please help me with rewards points were not added,Loyalty,Low,Neutral,9,632.25,9
+T1022,C1022,I need assistance with rewards points were not added,Loyalty,High,Neutral,24,769.5,10
+T1023,C1023,Can someone review rewards points were not added,Loyalty,Medium,Neutral,16,906.75,0
+T1024,C1024,This is urgent because of rewards points were not added,Loyalty,Low,Neutral,4,1044.0,1
+T1025,C1025,I need an update about rewards points were not added,Loyalty,High,Neutral,19,1181.25,2
+T1026,C1026,Please resolve rewards points were not added,Loyalty,Medium,Neutral,11,1318.5,3
+T1027,C1027,Can you look into rewards points were not added,Loyalty,Low,Neutral,7,1455.75,4
+T1028,C1028,I would like clarification about rewards points were not added,Loyalty,High,Neutral,22,1593.0,5
+T1029,C1029,I need support with rewards points were not added,Loyalty,Medium,Neutral,14,1730.25,6
+T1030,C1030,Please check rewards points were not added,Loyalty,Low,Neutral,10,1867.5,7
+T1031,C1031,Could you help with rewards points were not added,Loyalty,High,Neutral,25,2004.75,8
+T1032,C1032,I need this fixed: rewards points were not added,Loyalty,Medium,Neutral,9,2142.0,9
+T1033,C1033,Please investigate rewards points were not added,Loyalty,Low,Neutral,5,2279.25,10
+T1034,C1034,Can you explain rewards points were not added,Loyalty,High,Neutral,20,2416.5,0
+T1035,C1035,I would appreciate help with rewards points were not added,Loyalty,Medium,Neutral,12,2553.75,1
+T1036,C1036,Please help me with see my loyalty balance,Loyalty,Low,Neutral,8,2691.0,2
+T1037,C1037,I need assistance with see my loyalty balance,Loyalty,High,Neutral,23,2828.25,3
+T1038,C1038,Can someone review see my loyalty balance,Loyalty,Medium,Neutral,15,2965.5,4
+T1039,C1039,This is urgent because of see my loyalty balance,Loyalty,Low,Neutral,11,3102.75,5
+T1040,C1040,I need an update about see my loyalty balance,Loyalty,High,Neutral,18,3240.0,6
+T1041,C1041,Please resolve see my loyalty balance,Loyalty,Medium,Neutral,10,3377.25,7
+T1042,C1042,Can you look into see my loyalty balance,Loyalty,Low,Neutral,6,3514.5,8
+T1043,C1043,I would like clarification about see my loyalty balance,Loyalty,High,Neutral,21,3651.75,9
+T1044,C1044,I need support with see my loyalty balance,Loyalty,Medium,Neutral,13,3789.0,10
+T1045,C1045,Please check see my loyalty balance,Loyalty,Low,Neutral,9,3926.25,0
+T1046,C1046,Could you help with see my loyalty balance,Loyalty,High,Neutral,24,4063.5,1
+T1047,C1047,I need this fixed: see my loyalty balance,Loyalty,Medium,Neutral,16,4200.75,2
+T1048,C1048,Please investigate see my loyalty balance,Loyalty,Low,Neutral,4,4338.0,3
+T1049,C1049,Can you explain see my loyalty balance,Loyalty,High,Neutral,19,4475.25,4
+T1050,C1050,I would appreciate help with see my loyalty balance,Loyalty,Medium,Neutral,11,4612.5,5

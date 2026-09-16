@@ -10,3 +10,5 @@ fastapi
 uvicorn
 pydantic
 pytest
+diffusers
+joblib

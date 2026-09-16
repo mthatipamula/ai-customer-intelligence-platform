@@ -1,0 +1,5 @@
+Model,Task,Metric,Score
+TF-IDF + Logistic Regression,Supervised Classification,Accuracy,1.0
+PyTorch Neural Network,Supervised Classification,Accuracy,1.0
+DistilBERT,Transformer Classification,Accuracy,1.0
+K-Means,Unsupervised Clustering,Silhouette Score,0.04245286752358017
